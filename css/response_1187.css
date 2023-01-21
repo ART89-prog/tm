@@ -1,0 +1,90 @@
+@media print, (max-width: 1187px) {
+
+    :root {
+        --font_size: 16px;
+        --font_size_title:50px;
+    }
+    .header_bottom-title {
+        font-size: 70px;
+        line-height: 1.2;
+        padding-top: 35px;
+    }
+    .header_bottom-text {
+        font-size: 22px;
+        line-height: 1.3;
+        margin-top: 14px;
+    }
+    header {
+        padding-top: 26px;
+        padding-bottom: 410px;
+        height: 950px;
+    }
+
+    .about_img {
+        width: 420px;
+        height: 420px;
+    }
+    .about_info {
+        width: calc(100% - 450px);
+        margin-top: 0;
+    }
+    .about {
+        margin-top: 30px;
+    }
+    .about_title {
+        margin-bottom: 15px;
+    }
+    .about_items {
+        margin-top: 10px;
+    }
+    .about {
+        padding-bottom: 80px;
+    }
+    .slider-big,
+    .blog, 
+    .tour {
+        margin-bottom: 80px;
+    }
+    .school {
+        padding: 80px 0 80px;
+    }
+    .blog_item-title {
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 137%;
+        text-align: center;
+        color: var(--text_color);
+    }
+    .block_head {
+        margin-bottom: 40px;
+    }
+
+    .about-page .about_text img {
+        width: 400px;
+        height: 400px;
+    }
+    .about-page .about_text.fl img {
+        width: 400px;
+        height: 400px;
+    }
+    .about-page.school-page .about_text img {
+        width: 400px;
+        height: 248px;
+    }
+    .about-page.school-page .about_text img.fl {
+        width: 400px;
+        height: 248px;  
+    }
+    .post {
+        padding-bottom: 80px;
+    }
+    .post-page .text_block {
+        font-size: var(--font_size);
+    }
+
+
+
+
+
+}

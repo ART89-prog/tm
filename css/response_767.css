@@ -1,0 +1,194 @@
+@media print, (max-width: 767px) {
+
+    :root {
+        --font_size: 15px;
+        --font_size_title: 36px;
+    }
+   
+
+
+    .header_bottom-title {
+        font-size: 38px;
+        padding-top: 20px;
+    }
+    .header_top {
+        margin-bottom: 100px;
+    }
+    .header_bottom-text {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .about .cont {
+        flex-direction: column;
+    }
+    .about_info {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .about_img {
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .about_item-top {
+        font-size: 24px;
+    }
+    .about_item-text {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .about_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .slider-big .swiper-slide span {
+        bottom: 45px;
+        line-height: 140%;
+        max-width: 290px;
+    }
+    .slider-big .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 20px;
+    }
+    .slider-big .swiper-slide img {
+        width: 100%;
+        height: 310px;
+        object-fit: cover;
+    }
+    .block_head {
+        margin-bottom: 30px;
+    }
+    .blog_item-title br {
+        display: none;
+    }
+    .blog_item-text {
+        margin-top: 10px;
+    }
+    .blog_item-title {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .blog_item-link a {
+        border-radius: 10px;
+        margin: 25px auto 0;
+    }
+    .about {
+        padding-bottom: 40px;
+    }
+    .slider-big {
+        margin-bottom: 40px;
+    }
+    .blog, 
+    .tour {
+        margin-bottom: 100px;
+    }
+    .school {
+        padding: 40px 0 80px;
+    }
+    .school .swiper-slide {
+        padding: 15px;
+    }
+
+    .tour_items {
+        margin-left: 0px;
+        margin-bottom: -20px;
+    }
+    .tour_items > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        padding: 15px 15px 25px;
+    }
+    .pagination a {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .tour-page {
+        padding-bottom: 40px;
+    }
+    .tour-page_title {
+        font-size: 28px;
+    }
+
+
+    .blog-page_left-title, .blog-page_right-title {
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+    .blog-page_wrap {
+        flex-direction: column;
+    }
+    .blog-page_left {
+        width: 100%;
+    }
+    .blog-page_right {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .blog-page_tag {
+        display: inline-block;
+        padding: 7px;
+    }
+    .blog-page {
+        padding-bottom: 40px;
+    }
+    .photo_items {
+        margin-left: 0px;
+    }
+    .photo_items > * {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .pagination {
+        margin-top: 30px;
+    }
+
+    .about-page .about_text img {
+        float: none;
+        margin: 0 auto 20px;
+        display: block;
+    }
+    .about-page .about_text.fl img {
+        float: none;
+        margin: 0 auto 20px;
+        display: block;
+    }
+    .about-page.school-page .about_text img {
+        float: none;
+        margin: 0 auto 20px;
+    }
+    .about-page.school-page .about_text img.fl {
+        float: none;
+        margin: 0 auto 20px;
+    }
+    .post {
+        padding-bottom: 40px;
+    }
+    .tour-page_text {
+        margin-bottom: 30px;
+    }
+    header {
+        height: 547px;
+    }
+    .about_title {
+        text-align: center;
+    }
+    .about_items {
+        justify-content: space-around;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .grid-sizer,
+    .grid-item {
+        width: calc(50% - 30px);
+    }
+
+
+
+
+
+
+}
