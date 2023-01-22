@@ -836,6 +836,11 @@ header .cont {
 
 /* standart */
 .standart {
+    padding: 193px 0 258px;
+    background: url(../images/standart_bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .cont {
 }
@@ -894,6 +899,92 @@ header .cont {
 }
 
 
+
+
+.progress {
+    padding: 137px 0 123px;
+    background: #F5F8FF;
+}
+.progress .progress_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.block_head {
+    width: calc(100% - 500px);
+}
+.progress .block_head .title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #000000;  
+    margin-bottom: 33px;
+}
+.progress form {
+    flex-shrink: 0;
+    width: 370px;
+}
+.progress form .line {
+    margin-bottom: 24px;
+}
+.progress form .line .field input {
+    width: 100%;
+    height: 60px;
+    background: #E2E8F8;
+    border-radius: 70px;
+    border: none;
+    padding: 0 22px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #424242;
+}
+.progress form .line .field input::-webkit-input-placeholder {
+    color:#A2A5AF;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+.progress form .line .field input::-moz-placeholder {
+    color:#A2A5AF;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+.progress form .line .field input:-moz-placeholder {
+    color:#A2A5AF;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+.progress form .line .field input:-ms-input-placeholder {
+    color:#A2A5AF;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+.progress form button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;  
+    background: linear-gradient(180deg, #F33726 -65.7%, #FD9B41 168.93%);
+    border-radius: 70px;
+    width: 100%;
+    height: 60px;
+}
 
 
 .sector {
