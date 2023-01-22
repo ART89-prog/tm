@@ -40,6 +40,19 @@ $(() => {
 	$('input[type=tel]').inputmask('+7 (999) 999-99-99')
 
 
+	// Скрол к контактам
+		$(".scroll").on("click", function(e){
+		e.preventDefault();
+		let id = $(this).attr("href");
+
+		$("html, body").animate({
+				scrollTop: $(id).offset().top 
+			}, {
+				duration: 1500,
+				easing: "swing"
+		});
+	});
+	
 
   	// Аккордион
 	$('body').on('click', '.accordion .accordion_item .head', function (e) {
