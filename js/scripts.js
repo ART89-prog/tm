@@ -68,7 +68,7 @@ $(() => {
 
 
 
-	// Слайдер Услуги
+	// Слайдер ОТзывы
 
 	const reviewsSliders = [],
 	reviews = document.querySelectorAll('.reviews .swiper')

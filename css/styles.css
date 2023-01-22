@@ -476,7 +476,7 @@ header .cont {
     right: -228px;
     background: #F5F8FF;
     border-radius: 50%;
-    z-index: 0;
+    z-index: -1;
 }
 .improvement .block_head {
     width: 360px;
@@ -729,7 +729,7 @@ header .cont {
     margin-top: 64px;    
 }
 .promotion_link .link {
-    padding: 0 13px;
+    padding: 0 9px;
     height: 47px;
     line-height: 47px;
     max-width: 162px;
@@ -1859,7 +1859,7 @@ header .cont {
     height: 20px;
 }
 .swiper-button-next {
-    left: calc(100% - 734px);
+    left: 364px;
 }
 
 
@@ -1921,11 +1921,14 @@ form button:hover {
 }
 
 
+
+/* Модальное окно */
 .modal.progress {
     padding: 30px 20px;
     border-radius: 10px;
     width: 100%;
     max-width: 370px;
+    display: none;
 }
 .modal.progress form {
     width: 100%;
