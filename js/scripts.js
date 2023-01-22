@@ -18,7 +18,7 @@ $(() => {
 	}
 
 	Fancybox.defaults.template = {
-		closeButton: '<svg><use xlink:href="images/sprite.svg#ic_close"></use></svg>',
+		// closeButton: '<svg><use xlink:href="images/sprite.svg#ic_close"></use></svg>',
 		spinner: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="25 25 50 50" tabindex="-1"><circle cx="50" cy="50" r="20"/></svg>',
 		main: null
 	}
@@ -57,6 +57,99 @@ $(() => {
 		}
 	})
 
+
+
+	// const swiper = new Swiper('.swiper', {
+	// 	// Default parameters
+	// 	slidesPerView: 1,
+	// 	spaceBetween: 10,
+	// 	// Responsive breakpoints
+	// 	breakpoints: {
+	// 	  // when window width is >= 320px
+	// 	  320: {
+	// 		slidesPerView: 2,
+	// 		spaceBetween: 20
+	// 	  },
+	// 	  // when window width is >= 480px
+	// 	  480: {
+	// 		slidesPerView: 3,
+	// 		spaceBetween: 30
+	// 	  },
+	// 	  // when window width is >= 640px
+	// 	  640: {
+	// 		slidesPerView: 1,
+	// 		spaceBetween: 40
+	// 	  }
+	// 	}
+	//   })
+
+
+
+
+	    // Слайдер Услуги
+
+		const reviewsSliders = [],
+		reviews = document.querySelectorAll('.reviews .swiper')
+	
+		reviews.forEach(function (el, i) {
+		el.classList.add('reviews_s' + i)
+	
+		let options = {
+		  loop: true,
+		  speed: 500,
+		  watchSlidesProgress: true,
+		  slideActiveClass: 'active',
+		  slideVisibleClass: 'visible',
+		  pagination: {
+			el: '.swiper-pagination',
+			type: 'bullets',
+			clickable: true,
+		  },
+		  navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev'
+		  },
+		  preloadImages: false,
+		  lazy: {
+			enabled: true,
+			checkInView: true,
+			loadOnTransitionStart: true,
+			loadPrevNext: true
+		  },
+		  breakpoints: {
+			0: {
+			  spaceBetween: 0,
+			  slidesPerView: 1
+			},
+			480: {
+			  spaceBetween: 0,
+			  slidesPerView: 1
+			},
+			768: {
+			  spaceBetween: 0,
+			  slidesPerView: 1
+			},
+			1280: {
+			  spaceBetween: 0,
+			  slidesPerView: 1
+			}
+		  },
+		  on: {
+			init: swiper => {
+			  setTimeout(() => setHeight($(swiper.$el).find('.swiper-slide')))
+			},
+			resize: swiper => {
+			  setTimeout(() => {
+				$(swiper.$el).find('.swiper-slide').height('auto')
+				setHeight($(swiper.$el).find('.swiper-slide'))
+			  })
+			}
+		  }
+		}
+	
+		reviewsSliders.push(new Swiper('.reviews_s' + i, options))
+	  })
+  
 
 
 
