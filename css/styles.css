@@ -317,6 +317,10 @@ header .cont {
     align-items: center;
     justify-content: space-between;
 }
+.header_logo .icon {
+    width: 131px;
+    height: 49px;
+}
 .link {
     background: linear-gradient(180deg, #F33726 -65.7%, #FD9B41 168.93%);
     border-radius: 82px;
@@ -947,6 +951,14 @@ header .cont {
     text-align: center;
     margin: 61px auto 0;
 }
+.hide-content {
+    display: none;
+    margin-top: -61px;
+}
+/* .service_items.hide-content .service_link {
+    text-align: center;
+    margin: 18px auto 0;
+} */
 
 
 
@@ -1107,7 +1119,7 @@ header .cont {
     width: 842px;
     height: 875px;
     top: 0;
-    right: 0;
+    right: -20px;
     background: url(../images/video_bg.svg);
     z-index: -1;
 }
@@ -1213,6 +1225,24 @@ header .cont {
     left: 50%;
     transform: translate(-50%, -50%);
     background: url(../images/sector_bg.svg);
+}
+.sector:after {
+    position: absolute;
+    content: "";
+    width: 140px;
+    height: 439px;
+    top: -40px;
+    left: 0;
+    background: url(../images/sector_bg2.svg);
+}
+.sector marquee:after {
+    position: absolute;
+    content: "";
+    width: 109px;
+    height: 216px;
+    top: 45px;
+    right: 0;
+    background: url(../images/sector_bg3.svg);
 }
 .sector ul {
     list-style: none;
@@ -1472,11 +1502,12 @@ header .cont {
 /* accordion */
 .accordion {
     padding: 125px 0 180px;
+    margin-bottom: 80px;
     z-index: 1;
     position: relative;
     background: url(../images/faq_bg.svg);
     background-size: cover;
-    background-position: center;
+    background-position: -500px center;
     background-repeat: no-repeat;
 }
 .accordion_item{
@@ -1688,4 +1719,54 @@ header .cont {
 }
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0;
+}
+
+
+
+
+/* footer */
+footer {
+    padding: 49px 0;
+    background: #F4F6FB;
+}
+footer .cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_left {
+    display: flex;
+    align-items: center;
+}
+footer .icon {
+    width: 114px;
+    height: 42px;
+}
+.footer_left-text {
+    padding-left: 31px;
+    margin-left: 27px;
+    border-left: 1px solid #B1BDDC;
+}
+.footer_links a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16.5px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    color: #64607D;
+}
+.footer_links a:first-child {
+    padding-right: 22px;
+    margin-right: 22px;
+    border-right: 1px solid #626381;
+}
+.footer_copyright {
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 16.5px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    color: #64607D;
 }
