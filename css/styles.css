@@ -451,6 +451,19 @@ header .cont {
 /* improvement */
 .improvement {
     padding: 104px 0 107px;
+    position: relative;
+    z-index: 1;
+}
+.improvement:after {
+    position: absolute;
+    content: "";
+    width: 456px;
+    height: 456px;
+    top: 0;
+    right: -228px;
+    background: #F5F8FF;
+    border-radius: 50%;
+    z-index: 0;
 }
 .improvement .block_head {
     width: 360px;
@@ -563,7 +576,8 @@ header .cont {
 
 /* level */
 .level {
-    padding: 57px 0;
+    position: relative;
+    z-index: 4;
 }
 .level .cont {
     max-width: 840px;
@@ -572,7 +586,7 @@ header .cont {
     background: url(../images/level_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0 center;
+    background-position: center;
     border-radius: 15px;   
     display: flex;
     flex-direction: column;
@@ -606,7 +620,7 @@ header .cont {
 
 /* promotion */
 .promotion {
-    padding: 66px 0 60px;
+    padding: 126px 0 120px;
     position: relative;
     z-index: 1;
 }
@@ -614,17 +628,28 @@ header .cont {
     position: absolute;
     content: "";
     width: 100%;
-    height: 100%;
-    top: -200px;
+    min-height: 1024px;
+    top: -165px;
     left: 0;
-    background: url(../images/promotion_bg.svg);
-    /* background-size: cover; */
+    background: url(../images/faq_bg.svg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center -250px;
+    background-position: center -120px;
     z-index: -1;
 }
 .promotion .block_head {
-    margin-bottom: 25px;
+    margin: 0 auto 75px;    
+}
+.promotion .block_head .desc {
+    max-width: 876px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #64607D;
+    margin: 17px auto 0;
 }
 .promotion_items {
     display: flex;
@@ -635,7 +660,7 @@ header .cont {
     width: calc(100%/3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
-    padding: 65px 29px 39px 33px;
+    padding: 54px 29px 39px 33px;
     background: #FFFFFF;
     border-radius: 20px;
 }
@@ -645,7 +670,8 @@ header .cont {
     line-height: 1.5;
     letter-spacing: -0.03em;
     color: #16012C;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
+    margin-top: 25px;
 }
 .promotion_item-text {
     font-weight: 500;
@@ -670,6 +696,7 @@ header .cont {
 .promotion_item .icon  {
     width: 60px;
     height: 60px;
+    margin-left: -9px;
 }
 .promotion_item .promotion_item-link .icon {
     width: 13px;
@@ -683,17 +710,22 @@ header .cont {
 }
 .promotion_link {
     text-align: center;
-    margin-top: 64px;
+    margin-top: 64px;    
+}
+.promotion_link .link {
+    padding: 0 8px;
+    max-width: 162px;
+    width: 100%;
 }
 
 
 
 /* advantages */
 .advantages {
-    margin-bottom: 59px;
+    padding: 130px 0 59px;
 }
 .advantages_wrap {
-    padding: 50px 44px;
+    padding: 50px 53px 50px 44px;
     background: #FFFFFF;
     border: 1px solid #DEE1E6;
     border-radius: 20px;    
@@ -732,18 +764,32 @@ header .cont {
     justify-content: center;
     flex-shrink: 0;
     margin-right: 18px;
+    padding: 14px;
 }
 
 
 
 /* information */
 .information {
-    padding: 50px 0;
+    padding: 50px 0 150px;
+    position: relative;
+    background: url(../images/faq_bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.information:before {
+    position: absolute;
+    content: "";
+    width: 242px;
+    height: 257px;
+    right: 0;
+    top: 32%;
+    background: url(../images/information_bg3.svg);
 }
 .information_item {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-bottom: 50px;
 }
 .information_item:last-child {
@@ -753,7 +799,10 @@ header .cont {
     box-shadow: -24.4924px 19.5939px 43.1066px rgba(0, 0, 0, 0.4);   
     border-radius: 20px; 
     width: 421px;
-    height: 536px; flex-shrink: 0;
+    height: 536px; 
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
 }
 .information_item-img img {
     display: block;
@@ -779,7 +828,7 @@ header .cont {
     color: #64607D;
 }
 .information_item-text p {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 .information_item-text p:last-child {
     margin-bottom: 0px;
@@ -789,21 +838,77 @@ header .cont {
 }
 .information_item:nth-child(2n + 1) .information_item-desc {
     margin-left: 69px;
+    max-width: 611px;
 }
 .information_item:nth-child(2n) .information_item-desc {
-    margin-right: 69px;
+    margin-right: 95px;
     margin-left: 0;
+    max-width: 471px;
+}
+.information_item:nth-child(1) .information_item-img::before {
+    position: absolute;
+    content: "";
+    width: 393px;
+    height: 393px;
+    bottom: -76px;
+    left: -106px;
+    background: url(../images/information_bg.svg);
+    z-index: -1;
+}
+.information_item:nth-child(1) .information_item-img::after {
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 64px;
+    top: 175px;
+    left: -122px;
+    background: url(../images/information_bg2.svg);
+    z-index: -1;
 }
 
+.information_item:nth-child(2) .information_item-img::after {
+    position: absolute;
+    content: "";
+    width: 395px;
+    height: 211px;
+    right: -110px;
+    top: 186px;
+    background: url(../images/information_bg4.svg);
+    z-index: -1;
+}
+.information_item:nth-child(3) .information_item-img::before {
+    position: absolute;
+    content: "";
+    width: 210px;
+    height: 463px;
+    left: -93px;
+    top: -309px;
+    background: url(../images/information_bg5.svg);
+    z-index: -1;
+}
 
 
 /* service */
 .service {
-    padding: 88px 0 140px;
-    background: url(../images/service_bg.svg);
-    background-position: center;
+    padding: 88px 0 70px;
+    background: url(../images/faq_bg.svg);
+    background-position: -520px center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.service .block_head {
+    margin: 0 auto 75px;    
+}
+.service .block_head .desc {
+    max-width: 876px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #64607D;
+    margin: 17px auto 0;
 }
 .service_items {
     display: flex;
@@ -853,17 +958,9 @@ header .cont {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.cont {
-}
-.block_head {
-}
-.pre_title {
-}
-.title {
-}
-.desc {
-}
-.link {
+.standart .block_head .link {
+    max-width: 200px;
+    padding: 0px 21px;
 }
 
 
@@ -1441,6 +1538,9 @@ header .cont {
 
 
 /* reviews */
+.reviews {
+    padding: 70px 0 148px;
+}
 .reviews .swiper {
     overflow: visible !important;
 }
