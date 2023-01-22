@@ -17,24 +17,22 @@ $(() => {
 		MODAL: "Вы можете закрыть это модальное окно нажав клавишу ESC"
 	}
 
-	Fancybox.defaults.template = {
-		// closeButton: '<svg><use xlink:href="images/sprite.svg#ic_close"></use></svg>',
-		spinner: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="25 25 50 50" tabindex="-1"><circle cx="50" cy="50" r="20"/></svg>',
-		main: null
-	}
+	// Fancybox.defaults.template = {
+	// 	closeButton: '<svg><use xlink:href="images/sprite.svg#ic_close"></use></svg>',
+	// 	spinner: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="25 25 50 50" tabindex="-1"><circle cx="50" cy="50" r="20"/></svg>',
+	// 	main: null
+	// }
 
 
 
-	$('body').on('click', '.modal_link', function (e) {
-	    e.preventDefault()
-
-	    $.fancybox.close(true)
-
-	    $.fancybox.open({
-	        src: $(this).data('content'),
-	        type: 'inline',
-	        touch: false
-	    })
+    $('body').on('click', '.modal_link', function (e) {
+		e.preventDefault()
+  
+		Fancybox.close(true)
+		  Fancybox.show([{
+			  src: $(this).data('content'),
+			  type: 'inline',
+		  }]);
 	})
 
 
