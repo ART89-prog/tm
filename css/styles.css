@@ -517,30 +517,32 @@ header .cont {
 }
 .improvement_item-number {
     font-weight: 700;
-    font-size: 279px;
-    line-height: 279px;
+    font-size: 204px;
+    line-height: 204px;
     letter-spacing: -0.02em;
     color: #000000;
     opacity: 0.05;
     right: 0;
-    top: -130px;
+    top: -85px;
     position: absolute;
 }
 .improvement_item:nth-child(1) {
-    margin-top: 239px;
-    margin-left: 326px;
+    margin-top: 205px;
+    margin-left: 286px;
 }
 .improvement_item:nth-child(2) {
-    margin-top: 58px;
+    margin-top: 72px;
+    margin-left: 173px;
 }
 .improvement_item:nth-child(3) {
-    margin-top: -275px;
+    margin-top: -174px;
+    margin-left: 82px;
 }
 .improvement_item::after {
     position: absolute;
     content: "";
     top: -70px;
-    left: 28px;
+    left: 19px;
     width: 23px;
     height: 23px;
     background: #C4C4C4;
@@ -550,7 +552,7 @@ header .cont {
 .improvement_items::before {
     position: absolute;
     content: "";
-    top: -343px;
+    top: -239px;
     left: 135px;
     width: 1070px;
     height: 449px;
