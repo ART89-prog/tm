@@ -199,6 +199,9 @@
     .accordion .block_head {
         margin-bottom: 40px;
     }
+    .title {
+        line-height: 1.4;
+    }
 
 
 

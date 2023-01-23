@@ -139,6 +139,7 @@
     }
     .reviews_item-author {
         margin-bottom: 15px;
+        text-align: left;
     }
     .progress .progress_wrap {
         flex-direction: column;
@@ -178,7 +179,9 @@
     }
     .callback:before,
     .callback_right:before,
-    .callback_soc:before {
+    .callback_soc:before,
+    .information_item:nth-child(1) .information_item-img::after,
+    .information:before {
         display: none;
     }
     .callback_left {
@@ -209,6 +212,69 @@
     }
     .accordion_item + .accordion_item {
         margin-top: 20px;
+    }
+    .reviews {
+        padding: 40px 0 40px;
+    }
+    .standart {
+        padding: 80px 0 60px;
+    }
+    .team {
+        padding: 30px 0 30px;
+        margin-top: 0;
+    }
+    .progress {
+        padding: 40px 0 40px;
+    }
+    .sector {
+        position: relative;
+        padding: 50px 0 40px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .video {
+        padding: 40px 0 40px;
+    }
+    .callback {
+        padding: 40px 0 40px;
+    }
+    .accordion {
+        padding: 50px 0 40px;
+        margin-bottom: 30px;
+        background-position: -497px center;
+    }
+    .improvement {
+        padding: 40px 0 40px;
+    }
+    .first-section {
+        padding-bottom: 20px;
+    }
+    .promotion {
+        padding: 40px 0 40px;
+    }
+    .advantages {
+        padding: 40px 0 40px;
+    }
+    .information {
+        padding: 40px 0 60px;
+    }
+    .progress .block_head .title,
+    .standart .title,
+    .team .title {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .information,
+    .service,
+    .accordion {
+        background: #F5F8FF;
+    }
+    .accordion {
+        margin-bottom: 0;
+    }
+    .progress form button,
+    .callback form button {
+        width: 240px;
     }
 
   
