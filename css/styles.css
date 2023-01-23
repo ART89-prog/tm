@@ -400,6 +400,7 @@ header .cont {
 }
 .first-section ul {
     margin-top: 89px;
+    margin-bottom: 115px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -676,7 +677,7 @@ header .cont {
     width: calc(100%/3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
-    padding: 54px 29px 39px 33px;
+    padding: 34px 29px 39px 33px;
     background: #FFFFFF;
     border-radius: 20px;
 }
@@ -687,7 +688,7 @@ header .cont {
     letter-spacing: -0.03em;
     color: #16012C;
     margin-bottom: 7px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .promotion_item-text {
     font-weight: 500;
@@ -894,6 +895,16 @@ header .cont {
     background: url(../images/information_bg4.svg);
     z-index: -1;
 }
+.information_item:nth-child(2) .information_item-img::after {
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 64px;
+    top: -42px;
+    left: 81px;
+    background: url(../images/information_bg2.svg);
+    z-index: 1;
+}
 .information_item:nth-child(3) .information_item-img::before {
     position: absolute;
     content: "";
@@ -1055,7 +1066,7 @@ header .cont {
     margin-left: -22px;
 }
 .team_items > * {
-    width: calc(100%/6 - 22px);
+    width: calc(244px - 22px);
     margin-left: 22px;
 }
 .team_item-photo {
@@ -1195,7 +1206,7 @@ header .cont {
     width: 908px;
     height: 875px;
     top: 0;
-    right: -20px;
+    right: -90px;
     background: url(../images/video_bg.svg);
     z-index: -1;
 }
@@ -1379,7 +1390,8 @@ header .cont {
     z-index: 2;
     width: 69px;
     height: 257px;
-    background: url(../images/callback_bg3.svg);    
+    background: url(../images/callback_bg3.svg);  
+    z-index: 0;  
 }
 .callback .cont {
     display: flex;
