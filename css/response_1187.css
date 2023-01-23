@@ -78,7 +78,7 @@
         display: none;        
     }
     .advantages_title {
-        margin-bottom: 25px;
+        margin-bottom: 40px;
     }
     .progress .block_head .title br {
         display: none;
@@ -103,6 +103,101 @@
     .callback_right {
         position: relative;
         width: calc(100% - 535px);
+    }
+    .video .title {
+        max-width: 320px;
+    }
+    .swiper-button-prev {
+        left: -20px;
+    }
+    .swiper-button-next {
+        left: 356px;
+    }
+    .improvement {
+        padding: 50px 0 50px;
+    }
+    .promotion {
+        padding: 50px 0 50px;
+    }
+    .promotion .block_head {
+        margin: 0 auto 40px;
+    }
+    .promotion_items > * {
+        padding: 25px;
+    }
+    .promotion_link {
+        margin-top: 50px;
+    }
+    .promotion::after {
+        min-height: 840px;
+    }
+    .advantages {
+        padding: 50px 0 50px;
+    }
+    .information {
+        padding: 50px 0 70px;
+    }
+    .service_items > * {
+        padding: 25px;
+    }
+    .service {
+        padding: 60px 0 60px;
+        background-position: -1068px center;
+    }
+    .reviews_item-text {
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .service .block_head {
+        margin: 0 auto 40px;
+    }
+    .service_item-title {
+        font-size: 22px;
+        line-height: 1.5;
+        margin-top: 10px;
+    }
+    .reviews_item-info {
+        width: calc(100% - 485px);
+    }
+    .reviews {
+        padding: 50px 0 50px;
+    }
+    .standart {
+        padding: 120px 0 80px;
+    }
+    .team {
+        padding: 40px 0 40px;
+        margin-top: 0;
+    }
+    .progress {
+        padding: 50px 0 50px;
+    }
+    .sector {
+        position: relative;
+        padding: 120px 0 50px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .video {
+        padding: 50px 0 50px;
+    }
+    .callback {
+        padding: 50px 0 40px;
+    }
+    .accordion {
+        padding: 65px 0 50px;
+        margin-bottom: 40px;
+        background-position: -497px center;
+    }
+    .progress .block_head .title,
+    .standart .title,
+    .team .title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .accordion .block_head {
+        margin-bottom: 40px;
     }
 
 

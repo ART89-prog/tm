@@ -1347,6 +1347,8 @@ header .cont {
 }
 .sector .block_head {
     margin-bottom: 39px;
+    z-index: 3;
+    position: relative;
 }
 .sector ul {
     list-style: none;
