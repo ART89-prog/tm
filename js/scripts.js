@@ -138,7 +138,7 @@ $(() => {
 
 	const slider = document.querySelector('.slider');
 	const sl = new Swiper(slider, {
-		slidesPerView: 'auto',
+		// slidesPerView: 'auto',
 		loop: true,
 		spaceBetween: 22,
 		lazy: {
@@ -156,23 +156,23 @@ $(() => {
 		breakpoints: {
 			0: {
 				spaceBetween: 22,
-				slidesPerView: 1
+				slidesPerView: 2
 			},
 			480: {
 				spaceBetween: 22,
-				slidesPerView: 2
+				slidesPerView: 3
 			},
 			768: {
 				spaceBetween: 22,
-				slidesPerView: 3
+				slidesPerView: 4
 			},
 			1024: {
 				spaceBetween: 22,
-				slidesPerView: 4
+				slidesPerView: 5
 			},
 			1370: {
 				spaceBetween: 22,
-				slidesPerView: 5
+				slidesPerView: 7
 			}
 		},
 	});
