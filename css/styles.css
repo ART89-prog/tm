@@ -1070,8 +1070,8 @@ header .cont {
     margin-left: 22px;
 }
 .team_item-photo {
-    width: 222px;
-    height: 270px;
+    width: 100%;
+    height: auto;
 }
 .team_item-photo img {
     width: 100%;
@@ -1095,7 +1095,6 @@ header .cont {
     letter-spacing: -0.02em;
     color: var(--text_color2);
     margin-top: 8px;
-    white-space: break-spaces;
 }
 
 
@@ -1902,6 +1901,11 @@ footer .icon {
     padding-left: 31px;
     margin-left: 27px;
     border-left: 1px solid #B1BDDC;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    color: #64607D;
 }
 .footer_links a {
     text-decoration: none;
@@ -1955,4 +1959,23 @@ form button:hover {
     letter-spacing: -0.03em;
     color: #000000;
     margin-bottom: 15px;
+}
+
+
+
+.team .slider {
+    overflow: hidden;
+}  
+.team .swiper-slide {
+    width: auto;
+    margin-right: 20px;
+}  
+.team .slider__item {
+    font-size: 24px;
+    padding: 12px 32px;
+    background-color: #ccc;
+    text-align: center;
+}  
+.team .swiper-wrapper {
+    transition-timing-function: linear;
 }

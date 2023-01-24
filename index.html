@@ -1,1033 +1,1280 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-		<!-- Адаптирование страницы для мобильных устройств -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-		<!-- Запрет распознования номера телефона -->
-		<meta name="format-detection" content="telephone=no">
-		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+	<!-- Адаптирование страницы для мобильных устройств -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-		<!-- Заголовок страницы -->
-		<title>Заголовок страницы</title>
+	<!-- Запрет распознования номера телефона -->
+	<meta name="format-detection" content="telephone=no">
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 
-		<!-- Подключение шрифтов -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<!-- Заголовок страницы -->
+	<title>Заголовок страницы</title>
 
-		<!-- Данное значение часто используют(использовали) поисковые системы -->
-		<meta name="description" content="">
-		<meta name="keywords" content="">
+	<!-- Подключение шрифтов -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-		<!-- Изменение цвета панели моб. браузера -->
-		<meta name="msapplication-TileColor" content="#DE041D">
-		<meta name="theme-color" content="#DE041D">
+	<!-- Данное значение часто используют(использовали) поисковые системы -->
+	<meta name="description" content="">
+	<meta name="keywords" content="">
 
-		
-		<!-- Подключение файлов стилей -->
-		<link rel="stylesheet" href="css/swiper-bundle.min.css">
-		<link rel="stylesheet" href="css/swiper.css">
-		<link rel="stylesheet" href="css/fancybox.css">
-		
-		<link rel="stylesheet" href="css/styles.css">
+	<!-- Изменение цвета панели моб. браузера -->
+	<meta name="msapplication-TileColor" content="#DE041D">
+	<meta name="theme-color" content="#DE041D">
 
-		<link rel="stylesheet" href="css/response_1370.css" media="print, (max-width: 1370px)">
-		<link rel="stylesheet" href="css/response_1187.css" media="print, (max-width: 1187px)">
-		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
-		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
-		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
-	</head>
 
-	<body>
-		<div class="wrap">
-			<div class="main">
-				<header>									
-					<div class="cont">																
-						<a href="#" class="header_logo">
-							<svg class="icon"><use xlink:href="#logo"></use></svg>
+	<!-- Подключение файлов стилей -->
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/swiper.css">
+	<link rel="stylesheet" href="css/fancybox.css">
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	<link rel="stylesheet" href="css/response_1370.css" media="print, (max-width: 1370px)">
+	<link rel="stylesheet" href="css/response_1187.css" media="print, (max-width: 1187px)">
+	<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+	<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+	<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="main">
+			<header>
+				<div class="cont">
+					<a href="#" class="header_logo">
+						<svg class="icon">
+							<use xlink:href="#logo"></use>
+						</svg>
+					</a>
+					<a href="#callback" class="link scroll">
+						<span>Контакты</span>
+					</a>
+				</div>
+			</header>
+
+
+			<section class="first-section">
+				<div class="cont">
+					<div class="first-section_wrap">
+						<div class="first-section_info">
+							<div class="first-section_pretitle">Разработка ПО на заказ</div>
+							<div class="first-section_title">Повышаем <span>прибыль и доходность</span> компаний</div>
+							<div class="first-section_text">Наша компания занимается разработкой IT-решений для
+								увеличения прибыли и доходности вашей компании. Работаем с 2009 года.</div>
+							<a href="#" class="link modal_link" data-content="#modal_callback">
+								<span>Связаться с нами</span>
+							</a>
+							<ul>
+								<li>
+									<svg class="icon">
+										<use xlink:href="#check"></use>
+									</svg>
+									<span>На рынке с 2005 года</span>
+								</li>
+								<li>
+									<svg class="icon">
+										<use xlink:href="#check"></use>
+									</svg>
+									<span>Гарантия качества</span>
+								</li>
+							</ul>
+						</div>
+						<div class="first-section_img">
+							<img src="images/first-section_img.svg" alt="">
+						</div>
+					</div>
+					<div class="first-section_bottom">
+						<div class="first-section_pretitle center">Более 10000+ компаний доверились нам:</div>
+						<div class="first-section_bottom-box">
+							<img data-src="images/company1.svg" alt="" class="lazyload">
+							<img data-src="images/company2.svg" alt="" class="lazyload">
+							<img data-src="images/company3.svg" alt="" class="lazyload">
+							<img data-src="images/company4.svg" alt="" class="lazyload">
+							<img data-src="images/company5.svg" alt="" class="lazyload">
+							<img data-src="images/company6.svg" alt="" class="lazyload">
+							<img data-src="images/company7.svg" alt="" class="lazyload">
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="improvement">
+				<div class="cont">
+					<div class="block_head">
+						<div class="pre_title">СХЕМА НАШЕЙ РАБОТЫ</div>
+						<div class="title">Как мы<br> работаем</div>
+						<div class="desc">Наша компания работает через 3 основные схемы. Это консалтинг, обучение и
+							отдел продаж в аренду. Какой то описание</div>
+						<a href="#" class="link modal_link" data-content="#modal_callback">
+							<span>Связаться с нами</span>
 						</a>
-						<a href="#callback" class="link scroll">
-							<span>Контакты</span>
-						</a>						
 					</div>
-				</header>
-
-
-				<section class="first-section">
-					<div class="cont">
-						<div class="first-section_wrap">
-							<div class="first-section_info">
-								<div class="first-section_pretitle">Разработка ПО на заказ</div>
-								<div class="first-section_title">Повышаем <span>прибыль и доходность</span> компаний</div>
-								<div class="first-section_text">Наша компания занимается разработкой IT-решений для увеличения прибыли и доходности вашей компании.  Работаем с 2009 года.</div>
-								<a href="#" class="link modal_link" data-content="#modal_callback">
-									<span>Связаться с нами</span>								
-								</a>
-								<ul>
-									<li>
-										<svg class="icon"><use xlink:href="#check"></use></svg>
-										<span>На рынке с 2005 года</span>
-									</li>
-									<li>
-										<svg class="icon"><use xlink:href="#check"></use></svg>
-										<span>Гарантия качества</span>
-									</li>
-								</ul>	
-							</div>
-							<div class="first-section_img">
-								<img src="images/first-section_img.svg" alt="">
-							</div>	
+					<div class="improvement_items">
+						<div class="improvement_item">
+							<div class="improvement_item-title">За процент</div>
+							<div class="improvement_item-text">Наша компания занимается консалтингом. Какое то описание
+								мелкое этого пункта</div>
+							<div class="improvement_item-number">1</div>
 						</div>
-						<div class="first-section_bottom">
-							<div class="first-section_pretitle center">Более 10000+ компаний доверились нам:</div>
-							<div class="first-section_bottom-box">
-								<img data-src="images/company1.svg" alt="" class="lazyload">
-								<img data-src="images/company2.svg" alt="" class="lazyload">
-								<img data-src="images/company3.svg" alt="" class="lazyload">
-								<img data-src="images/company4.svg" alt="" class="lazyload">
-								<img data-src="images/company5.svg" alt="" class="lazyload">
-								<img data-src="images/company6.svg" alt="" class="lazyload">
-								<img data-src="images/company7.svg" alt="" class="lazyload">
-							</div>
+						<div class="improvement_item">
+							<div class="improvement_item-title">За достижение DPI</div>
+							<div class="improvement_item-text">Обучаем ваших сотрудников. Какое то описание этого
+								пунтка, тоже на пару тройку строк. Что то еще</div>
+							<div class="improvement_item-number">2</div>
+						</div>
+						<div class="improvement_item">
+							<div class="improvement_item-title">За абонентскую плату</div>
+							<div class="improvement_item-text">Сдаем отдел продаж в аренду, описание этого пункта на
+								несколько строк. Еще то то написано тут</div>
+							<div class="improvement_item-number">3</div>
 						</div>
 					</div>
-				</section>
+				</div>
+			</section>
 
 
-				<section class="improvement">
-					<div class="cont">
+
+			<section class="level">
+				<div class="cont">
+					<div class="level_info">
+						<div class="level_title">Выведем ваш бизнес на новый уровень</div>
+						<div class="level_text">Наша компания работает через 3 основные схемы. Это консалтинг, обучение
+							и отдел продаж в аренду. </div>
+						<a href="#" class="link modal_link" data-content="#modal_callback">
+							<span>Связаться с нами</span>
+						</a>
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="promotion">
+				<div class="cont">
+					<div class="block_head center">
+						<div class="title">Продвигаем бизнес через 3 основные схемы</div>
+						<div class="desc">Наша компания занимается разработкой IT-решений для увелечения прибыли и
+							доходности вашей компании. Разработчики платформы XSkill. Работаем с 2005 года.</div>
+					</div>
+					<div class="promotion_items">
+						<div class="promotion_item">
+							<svg class="icon icon-gradient">
+								<use xlink:href="#promotion1"></use>
+							</svg>
+							<div class="promotion_item-title">Консалтинг</div>
+							<div class="promotion_item-text">Наша компания занимается консалтингом. Какое то описание
+								мелкое этого пункта</div>
+							<a href="#" class="promotion_item-link">
+								<span>Подробнее</span>
+								<svg class="icon icon-gradient">
+									<use xlink:href="#arrow"></use>
+								</svg>
+							</a>
+						</div>
+						<div class="promotion_item">
+							<svg class="icon icon-gradient">
+								<use xlink:href="#promotion2"></use>
+							</svg>
+							<div class="promotion_item-title">Обучение</div>
+							<div class="promotion_item-text">Обучаем ваших сотрудников. Какое то описание этого пунтка,
+								тоже на пару тройку строк. Что то еще</div>
+							<a href="#" class="promotion_item-link">
+								<span>Подробнее</span>
+								<svg class="icon icon-gradient">
+									<use xlink:href="#arrow"></use>
+								</svg>
+							</a>
+						</div>
+						<div class="promotion_item">
+							<svg class="icon icon-gradient">
+								<use xlink:href="#promotion3"></use>
+							</svg>
+							<div class="promotion_item-title">Отдел продаж в аренду</div>
+							<div class="promotion_item-text">Сдаем отдел продаж в аренду, описание этого пункта на
+								несколько строк. Еще то то написано тут</div>
+							<a href="#" class="promotion_item-link">
+								<span>Подробнее</span>
+								<svg class="icon icon-gradient">
+									<use xlink:href="#arrow"></use>
+								</svg>
+							</a>
+						</div>
+					</div>
+					<div class="promotion_link">
+						<a href="#" class="link modal_link" data-content="#modal_callback">
+							<span>Связaться с нами</span>
+						</a>
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="advantages">
+				<div class="cont">
+					<div class="advantages_wrap">
+						<div class="advantages_title title">Наши <br>Преимущества</div>
+						<div class="advantages_items">
+							<div class="advantages_item">
+								<svg class="icon icon-gradient">
+									<use xlink:href="#advantages1"></use>
+								</svg>
+								<span>Работаем с<br> 2005 года</span>
+							</div>
+							<div class="advantages_item">
+								<svg class="icon icon-gradient">
+									<use xlink:href="#advantages2"></use>
+								</svg>
+								<span>Гарантируем <br>качество</span>
+							</div>
+							<div class="advantages_item">
+								<svg class="icon icon-gradient">
+									<use xlink:href="#advantages3"></use>
+								</svg>
+								<span>В штате только<br> специалисты</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="information">
+				<div class="cont">
+					<div class="information_items">
+						<div class="information_item">
+							<div class="information_item-img">
+								<img data-src="images/information1.jpg" alt="" class="lazyload">
+							</div>
+							<div class="information_item-desc">
+								<div class="information_item-title">Разработка</div>
+								<div class="information_item-text">
+									<p>Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и
+										журналистов, создателей научных заявок и отчетов — для всех, кто относится к
+										тексту, как к количеству знаков.</p>
+									<p>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем
+										именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким
+										образом, авторские права на реферат принадлежат только вам</p>
+								</div>
+							</div>
+						</div>
+						<div class="information_item">
+							<div class="information_item-img">
+								<img data-src="images/information2.jpg" alt="" class="lazyload">
+							</div>
+							<div class="information_item-desc">
+								<div class="information_item-title">Реклама</div>
+								<div class="information_item-text">
+									<p>Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и
+										журналистов, создателей научных заявок и отчетов — для всех, кто относится к
+										тексту, как к количеству знаков.</p>
+									<p>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем
+										именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким
+										образом, авторские права на реферат принадлежат только вам</p>
+								</div>
+							</div>
+						</div>
+						<div class="information_item">
+							<div class="information_item-img">
+								<img data-src="images/information3.jpg" alt="" class="lazyload">
+							</div>
+							<div class="information_item-desc">
+								<div class="information_item-title">Продажи</div>
+								<div class="information_item-text">
+									<p>Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и
+										журналистов, создателей научных заявок и отчетов — для всех, кто относится к
+										тексту, как к количеству знаков.</p>
+									<p>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем
+										именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким
+										образом, авторские права на реферат принадлежат только вам</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="service">
+				<div class="cont">
+					<div class="block_head center">
+						<div class="title">Что мы предлагаем</div>
+						<div class="desc">Наша компания занимается разработкой IT-решений для увелечения прибыли и
+							доходности вашей компании. Разработчики платформы XSkill. Работаем с 2005 года.</div>
+					</div>
+					<div class="service_items">
+						<div class="service_item">
+							<svg class="icon">
+								<use xlink:href="#service"></use>
+							</svg>
+							<div class="service_item-title">Продвижение бизнеса</div>
+							<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
+						</div>
+						<div class="service_item">
+							<svg class="icon">
+								<use xlink:href="#service"></use>
+							</svg>
+							<div class="service_item-title">Отдел продаж</div>
+							<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
+						</div>
+						<div class="service_item">
+							<svg class="icon">
+								<use xlink:href="#service"></use>
+							</svg>
+							<div class="service_item-title">Консалтинг</div>
+							<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
+						</div>
+						<div class="service_item">
+							<svg class="icon">
+								<use xlink:href="#service"></use>
+							</svg>
+							<div class="service_item-title">Название услуги</div>
+							<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
+						</div>
+						<div class="service_item">
+							<svg class="icon">
+								<use xlink:href="#service"></use>
+							</svg>
+							<div class="service_item-title">Еще название</div>
+							<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
+						</div>
+						<div class="service_item">
+							<svg class="icon">
+								<use xlink:href="#service"></use>
+							</svg>
+							<div class="service_item-title">Услуга такая то</div>
+							<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
+						</div>
+					</div>
+					<div class="service_link">
+						<a href="#" class="link show-more">
+							<span>Развернуть все услуги</span>
+						</a>
+					</div>
+					<div class="service_items hide-content">
+						<div class="service_item">
+							<svg class="icon">
+								<use xlink:href="#service"></use>
+							</svg>
+							<div class="service_item-title">Продвижение бизнеса</div>
+							<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
+						</div>
+						<div class="service_item">
+							<svg class="icon">
+								<use xlink:href="#service"></use>
+							</svg>
+							<div class="service_item-title">Отдел продаж</div>
+							<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
+						</div>
+						<div class="service_item">
+							<svg class="icon">
+								<use xlink:href="#service"></use>
+							</svg>
+							<div class="service_item-title">Консалтинг</div>
+							<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
+						</div>
+						<div class="service_item">
+							<svg class="icon">
+								<use xlink:href="#service"></use>
+							</svg>
+							<div class="service_item-title">Название услуги</div>
+							<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
+						</div>
+						<div class="service_item">
+							<svg class="icon">
+								<use xlink:href="#service"></use>
+							</svg>
+							<div class="service_item-title">Еще название</div>
+							<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
+						</div>
+						<div class="service_item">
+							<svg class="icon">
+								<use xlink:href="#service"></use>
+							</svg>
+							<div class="service_item-title">Услуга такая то</div>
+							<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="reviews">
+				<div class="cont">
+					<div class="block_head center">
+						<div class="pre_title">НАШИ ОТЗЫВЫ</div>
+						<div class="title">Что говорят наши довольные клиенты</div>
+					</div>
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="reviews_item">
+									<div class="reviews_item-img">
+										<img data-src="images/reviews1.png" alt="" class="swiper-lazy">
+									</div>
+									<div class="reviews_item-info">
+										<svg class="reviews_item-icon">
+											<use xlink:href="#quote"></use>
+										</svg>
+										<div class="reviews_item-rating">
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+										</div>
+										<div class="reviews_item-text">Работать с SkillTelecom одно удовольствие.
+											Продажи увеличились на 30% и все благодаря их качественным специалистам по
+											маркетингу</div>
+										<div class="reviews_item-bottom">
+											<div class="reviews_item-author">
+												<div class="reviews_item-name">Ирина Петрова</div>
+												<div class="reviews_item-post">Директор Segment</div>
+											</div>
+											<div class="reviews_item-company">
+												<img data-src="images/reviews-company.svg" alt="" class="swiper-lazy">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="reviews_item">
+									<div class="reviews_item-img">
+										<img data-src="images/reviews1.png" alt="" class="swiper-lazy">
+									</div>
+									<div class="reviews_item-info">
+										<svg class="reviews_item-icon">
+											<use xlink:href="#quote"></use>
+										</svg>
+										<div class="reviews_item-rating">
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+										</div>
+										<div class="reviews_item-text">Работать с SkillTelecom одно удовольствие.
+											Продажи увеличились на 30% и все благодаря их качественным специалистам по
+											маркетингу</div>
+										<div class="reviews_item-bottom">
+											<div class="reviews_item-author">
+												<div class="reviews_item-name">Ирина Петрова</div>
+												<div class="reviews_item-post">Директор Segment</div>
+											</div>
+											<div class="reviews_item-company">
+												<img data-src="images/reviews-company.svg" alt="" class="swiper-lazy">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="reviews_item">
+									<div class="reviews_item-img">
+										<img data-src="images/reviews1.png" alt="" class="swiper-lazy">
+									</div>
+									<div class="reviews_item-info">
+										<svg class="reviews_item-icon">
+											<use xlink:href="#quote"></use>
+										</svg>
+										<div class="reviews_item-rating">
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+											<svg class="icon">
+												<use xlink:href="#star"></use>
+											</svg>
+										</div>
+										<div class="reviews_item-text">Работать с SkillTelecom одно удовольствие.
+											Продажи увеличились на 30% и все благодаря их качественным специалистам по
+											маркетингу</div>
+										<div class="reviews_item-bottom">
+											<div class="reviews_item-author">
+												<div class="reviews_item-name">Ирина Петрова</div>
+												<div class="reviews_item-post">Директор Segment</div>
+											</div>
+											<div class="reviews_item-company">
+												<img data-src="images/reviews-company.svg" alt="" class="swiper-lazy">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-pagination"></div>
+
+						<div class="swiper-button-prev">
+							<svg class="icon">
+								<use xlink:href="#prev"></use>
+							</svg>
+						</div>
+						<div class="swiper-button-next">
+							<svg class="icon">
+								<use xlink:href="#next"></use>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="standart">
+				<div class="cont">
+					<div class="block_head center">
+						<div class="pre_title">РАБОТАЙТЕ С НАМИ</div>
+						<div class="title">Выведем ваш бизнес на совершенно<br> новый уровень</div>
+						<div class="desc">Обучаем ваших сотрудников. Какое то описание этого пунтка, тоже на пару тройку
+							строк. Что то еще</div>
+						<a href="#" class="link modal_link" data-content="#modal_callback">
+							<span>Связаться с нами</span>
+						</a>
+					</div>
+				</div>
+			</section>
+
+
+
+
+
+
+			<section class="team">
+				<div class="cont">
+					<div class="block_head">
+						<div class="title">Наши сотрудники</div>
+						<div class="desc">Наша компания занимается разработкой IT-решений для увелечения прибыли и
+							доходности вашей компании. Разработчики платформы XSkill. Работаем с 2005 года.</div>
+					</div>
+				</div>
+
+				<div class="slider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="team_item">
+								<div class="team_item-photo">
+									<img data-src="images/team1.jpg" alt="" class="swiper-lazy">
+								</div>
+								<div class="team_item-name">Василий Петров</div>
+								<div class="team_item-post">Гланый инженер. Имеет опыт с 2013 года. Руководит всеми
+									проектами</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="team_item">
+								<div class="team_item-photo">
+									<img data-src="images/team2.jpg" alt="" class="swiper-lazy">
+								</div>
+								<div class="team_item-name">Василий Петров</div>
+								<div class="team_item-post">Дизайнер. Создает дизайны для наших сайтов</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="team_item">
+								<div class="team_item-photo">
+									<img data-src="images/team3.jpg" alt="" class="swiper-lazy">
+								</div>
+								<div class="team_item-name">Василий Петров</div>
+								<div class="team_item-post">Генеральный директор. Руководит всеми проектами. Опыт с 2005
+									года</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="team_item">
+								<div class="team_item-photo">
+									<img data-src="images/team4.jpg" alt="" class="swiper-lazy">
+								</div>
+								<div class="team_item-name">Василий Петров</div>
+								<div class="team_item-post">Дизайнер. Создает дизайны для наших сайтов</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="team_item">
+								<div class="team_item-photo">
+									<img data-src="images/team5.jpg" alt="" class="swiper-lazy">
+								</div>
+								<div class="team_item-name">Василий Петров</div>
+								<div class="team_item-post">Дизайнер. Создает дизайны для наших сайтов</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="team_item">
+								<div class="team_item-photo">
+									<img data-src="images/team1.jpg" alt="" class="swiper-lazy">
+								</div>
+								<div class="team_item-name">Василий Петров</div>
+								<div class="team_item-post">Гланый инженер. Имеет опыт с 2013 года. Руководит всеми
+									проектами</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="team_item">
+								<div class="team_item-photo">
+									<img data-src="images/team2.jpg" alt="" class="swiper-lazy">
+								</div>
+								<div class="team_item-name">Василий Петров</div>
+								<div class="team_item-post">Дизайнер. Создает дизайны для наших сайтов</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="team_item">
+								<div class="team_item-photo">
+									<img data-src="images/team3.jpg" alt="" class="swiper-lazy">
+								</div>
+								<div class="team_item-name">Василий Петров</div>
+								<div class="team_item-post">Генеральный директор. Руководит всеми проектами. Опыт с 2005
+									года</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="team_item">
+								<div class="team_item-photo">
+									<img data-src="images/team4.jpg" alt="" class="swiper-lazy">
+								</div>
+								<div class="team_item-name">Василий Петров</div>
+								<div class="team_item-post">Дизайнер. Создает дизайны для наших сайтов</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="team_item">
+								<div class="team_item-photo">
+									<img data-src="images/team5.jpg" alt="" class="swiper-lazy">
+								</div>
+								<div class="team_item-name">Василий Петров</div>
+								<div class="team_item-post">Дизайнер. Создает дизайны для наших сайтов</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="progress">
+				<div class="cont">
+					<div class="progress_wrap">
 						<div class="block_head">
-							<div class="pre_title">СХЕМА НАШЕЙ РАБОТЫ</div>
-							<div class="title">Как мы<br> работаем</div>
-							<div class="desc">Наша компания работает через 3 основные схемы. Это консалтинг, обучение и отдел продаж в аренду. Какой то описание</div>
-							<a href="#" class="link modal_link" data-content="#modal_callback">
-								<span>Связаться с нами</span>								
-							</a>
+							<div class="title">Продвинем ваш бизнес<br> на новый уровень</div>
+							<div class="desc">Обучаем ваших сотрудников. Какое то описание этого пунтка, тоже на пару
+								тройку строк. Что то еще</div>
 						</div>
-						<div class="improvement_items">
-							<div class="improvement_item">
-								<div class="improvement_item-title">За процент</div>
-								<div class="improvement_item-text">Наша компания занимается консалтингом. Какое то описание мелкое этого пункта</div>
-								<div class="improvement_item-number">1</div>
+						<form>
+							<div class="line">
+								<div class="field">
+									<input type="email" placeholder="Email">
+								</div>
 							</div>
-							<div class="improvement_item">
-								<div class="improvement_item-title">За достижение DPI</div>
-								<div class="improvement_item-text">Обучаем ваших сотрудников. Какое то описание этого пунтка, тоже на пару тройку строк. Что то еще</div>
-								<div class="improvement_item-number">2</div>
+							<div class="line">
+								<div class="field">
+									<input type="text" placeholder="Ваше имя">
+								</div>
 							</div>
-							<div class="improvement_item">
-								<div class="improvement_item-title">За абонентскую плату</div>
-								<div class="improvement_item-text">Сдаем отдел продаж в аренду, описание этого пункта на несколько строк. Еще то то написано тут</div>
-								<div class="improvement_item-number">3</div>
-							</div>
-						</div>
+							<button type="submit">
+								<span>Заказать звонок</span>
+							</button>
+						</form>
 					</div>
-				</section>
+				</div>
+			</section>
 
 
-
-				<section class="level">
-					<div class="cont">
-						<div class="level_info">							
-							<div class="level_title">Выведем ваш бизнес на новый уровень</div>
-							<div class="level_text">Наша компания работает через 3 основные схемы. Это консалтинг, обучение и отдел продаж в аренду. </div>
-							<a href="#" class="link modal_link" data-content="#modal_callback">
-								<span>Связаться с нами</span>									
-							</a>
-						</div>
+			<section class="sector">
+				<div class="cont">
+					<div class="block_head center">
+						<div class="title">Сферы, с которыми мы работали</div>
+						<div class="desc">Наша компания занимается разработкой IT-решений для увелечения прибыли и
+							доходности вашей компании. Разработчики платформы XSkill. Работаем с 2005 года.</div>
 					</div>
-				</section>
+				</div>
+				<marquee width="100%" behavior="scroll" loop="1000" truespeed="100">
+					<ul>
+						<li>ремонт квартир</li>
+						<li>реклама</li>
+						<li>оптовые продажи</li>
+						<li>сотовая связь</li>
+						<li>корма для животных</li>
+						<li>техника</li>
+						<li>оптовые продажи</li>
+						<li>сотовая связь</li>
+						<li>корма для животных</li>
+					</ul>
+				</marquee>
+				<marquee width="100%" behavior="scroll" loop="1000" truespeed="100">
+					<ul>
+						<li>мобильные приложения</li>
+						<li>салоны красоты</li>
+						<li>оптовые продажи</li>
+						<li>сотовая связь</li>
+						<li>маркетинг</li>
+						<li>маркетинг</li>
+						<li>оптовые продажи</li>
+						<li>сотовая связь</li>
+						<li>корма для животных</li>
+					</ul>
+				</marquee>
+				<marquee width="100%" behavior="scroll" loop="1000" truespeed="100">
+					<ul>
+						<li>маркетинг</li>
+						<li>маркетинг</li>
+						<li>оптовые продажи</li>
+						<li>техника</li>
+						<li>оптовые продажи</li>
+						<li>сотовая связь</li>
+						<li>корма для животных</li>
+						<li>корма для животных</li>
+						<li>корма для животных</li>
+					</ul>
+				</marquee>
+			</section>
 
 
 
-				<section class="promotion">
-					<div class="cont">
-						<div class="block_head center">
-							<div class="title">Продвигаем бизнес через 3 основные схемы</div>
-							<div class="desc">Наша компания занимается разработкой IT-решений для увелечения прибыли и доходности вашей компании.  Разработчики платформы XSkill. Работаем с 2005 года.</div>
-						</div>
-						<div class="promotion_items">
-							<div class="promotion_item">
-								<svg class="icon icon-gradient"><use xlink:href="#promotion1"></use></svg>
-								<div class="promotion_item-title">Консалтинг</div>
-								<div class="promotion_item-text">Наша компания занимается консалтингом. Какое то описание мелкое этого пункта</div>
-								<a href="#" class="promotion_item-link">
-									<span>Подробнее</span>
-									<svg class="icon icon-gradient"><use xlink:href="#arrow"></use></svg>
-								</a>
-							</div>
-							<div class="promotion_item">
-								<svg class="icon icon-gradient"><use xlink:href="#promotion2"></use></svg>
-								<div class="promotion_item-title">Обучение</div>
-								<div class="promotion_item-text">Обучаем ваших сотрудников. Какое то описание этого пунтка, тоже на пару тройку строк. Что то еще</div>
-								<a href="#" class="promotion_item-link">
-									<span>Подробнее</span>
-									<svg class="icon icon-gradient"><use xlink:href="#arrow"></use></svg>
-								</a>
-							</div>
-							<div class="promotion_item">
-								<svg class="icon icon-gradient"><use xlink:href="#promotion3"></use></svg>
-								<div class="promotion_item-title">Отдел продаж в аренду</div>
-								<div class="promotion_item-text">Сдаем отдел продаж в аренду, описание этого пункта на несколько строк. Еще то то написано тут</div>
-								<a href="#" class="promotion_item-link">
-									<span>Подробнее</span>
-									<svg class="icon icon-gradient"><use xlink:href="#arrow"></use></svg>
-								</a>
-							</div>
-						</div>
-						<div class="promotion_link">
-							<a href="#" class="link modal_link" data-content="#modal_callback">
-								<span>Связaться с нами</span>
-							</a>	
-						</div>						
-					</div>
-				</section>
 
-
-
-				<section class="advantages">
-					<div class="cont">
-						<div class="advantages_wrap">
-							<div class="advantages_title title">Наши <br>Преимущества</div>
-							<div class="advantages_items">
-								<div class="advantages_item">
-									<svg class="icon icon-gradient"><use xlink:href="#advantages1"></use></svg>
-									<span>Работаем с<br> 2005 года</span>
-								</div>
-								<div class="advantages_item">
-									<svg class="icon icon-gradient"><use xlink:href="#advantages2"></use></svg>
-									<span>Гарантируем <br>качество</span>
-								</div>
-								<div class="advantages_item">
-									<svg class="icon icon-gradient"><use xlink:href="#advantages3"></use></svg>
-									<span>В штате только<br> специалисты</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-
-
-				<section class="information">
-					<div class="cont">
-						<div class="information_items">
-							<div class="information_item">
-								<div class="information_item-img">
-									<img data-src="images/information1.jpg" alt="" class="lazyload">
-								</div>
-								<div class="information_item-desc">
-									<div class="information_item-title">Разработка</div>
-									<div class="information_item-text">
-										<p>Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков.</p>
-										<p>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам</p>
-									</div>
-								</div>
-							</div>
-							<div class="information_item">
-								<div class="information_item-img">
-									<img data-src="images/information2.jpg" alt="" class="lazyload">
-								</div>
-								<div class="information_item-desc">
-									<div class="information_item-title">Реклама</div>
-									<div class="information_item-text">
-										<p>Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков.</p>
-										<p>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам</p>
-									</div>
-								</div>
-							</div>
-							<div class="information_item">
-								<div class="information_item-img">
-									<img data-src="images/information3.jpg" alt="" class="lazyload">
-								</div>
-								<div class="information_item-desc">
-									<div class="information_item-title">Продажи</div>
-									<div class="information_item-text">
-										<p>Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков.</p>
-										<p>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-
-
-				<section class="service">
-					<div class="cont">
-						<div class="block_head center">
-							<div class="title">Что мы предлагаем</div>
-							<div class="desc">Наша компания занимается разработкой IT-решений для увелечения прибыли и доходности вашей компании.  Разработчики платформы XSkill. Работаем с 2005 года.</div>
-						</div>
-						<div class="service_items">
-							<div class="service_item">
-								<svg class="icon"><use xlink:href="#service"></use></svg>
-								<div class="service_item-title">Продвижение бизнеса</div>
-								<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
-							</div>
-							<div class="service_item">
-								<svg class="icon"><use xlink:href="#service"></use></svg>
-								<div class="service_item-title">Отдел продаж</div>
-								<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
-							</div>
-							<div class="service_item">
-								<svg class="icon"><use xlink:href="#service"></use></svg>
-								<div class="service_item-title">Консалтинг</div>
-								<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
-							</div>
-							<div class="service_item">
-								<svg class="icon"><use xlink:href="#service"></use></svg>
-								<div class="service_item-title">Название услуги</div>
-								<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
-							</div>
-							<div class="service_item">
-								<svg class="icon"><use xlink:href="#service"></use></svg>
-								<div class="service_item-title">Еще название</div>
-								<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
-							</div>
-							<div class="service_item">
-								<svg class="icon"><use xlink:href="#service"></use></svg>
-								<div class="service_item-title">Услуга такая то</div>
-								<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
-							</div>
-						</div>
-						<div class="service_link">
-							<a href="#" class="link show-more">
-								<span>Развернуть все услуги</span>
-							</a>	
-						</div>
-						<div class="service_items hide-content">
-							<div class="service_item">
-								<svg class="icon"><use xlink:href="#service"></use></svg>
-								<div class="service_item-title">Продвижение бизнеса</div>
-								<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
-							</div>
-							<div class="service_item">
-								<svg class="icon"><use xlink:href="#service"></use></svg>
-								<div class="service_item-title">Отдел продаж</div>
-								<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
-							</div>
-							<div class="service_item">
-								<svg class="icon"><use xlink:href="#service"></use></svg>
-								<div class="service_item-title">Консалтинг</div>
-								<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
-							</div>
-							<div class="service_item">
-								<svg class="icon"><use xlink:href="#service"></use></svg>
-								<div class="service_item-title">Название услуги</div>
-								<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
-							</div>
-							<div class="service_item">
-								<svg class="icon"><use xlink:href="#service"></use></svg>
-								<div class="service_item-title">Еще название</div>
-								<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
-							</div>
-							<div class="service_item">
-								<svg class="icon"><use xlink:href="#service"></use></svg>
-								<div class="service_item-title">Услуга такая то</div>
-								<div class="service_item-text">Мы предлагаем продвигать ваш бизнес</div>
-							</div>
-						</div>						
-					</div>
-				</section>
-
-
-
-				 <section class="reviews">
-					<div class="cont">
-						<div class="block_head center">
-							<div class="pre_title">НАШИ ОТЗЫВЫ</div>
-							<div class="title">Что говорят наши довольные клиенты</div>
-						</div>
-						<div class="swiper">
-							<div class="swiper-wrapper">
-								<div class="swiper-slide">
-									<div class="reviews_item">
-										<div class="reviews_item-img">
-											<img data-src="images/reviews1.png" alt="" class="swiper-lazy">
-										</div>
-										<div class="reviews_item-info">
-											<svg class="reviews_item-icon"><use xlink:href="#quote"></use></svg>
-											<div class="reviews_item-rating">
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-											</div>
-											<div class="reviews_item-text">Работать с SkillTelecom одно удовольствие. Продажи увеличились на 30% и все благодаря их качественным специалистам по маркетингу</div>
-											<div class="reviews_item-bottom">
-												<div class="reviews_item-author">
-													<div class="reviews_item-name">Ирина Петрова</div>
-													<div class="reviews_item-post">Директор Segment</div>
-												</div>
-												<div class="reviews_item-company">
-													<img data-src="images/reviews-company.svg" alt="" class="swiper-lazy">
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="swiper-slide">
-									<div class="reviews_item">
-										<div class="reviews_item-img">
-											<img data-src="images/reviews1.png" alt="" class="swiper-lazy">
-										</div>
-										<div class="reviews_item-info">
-											<svg class="reviews_item-icon"><use xlink:href="#quote"></use></svg>
-											<div class="reviews_item-rating">
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-											</div>
-											<div class="reviews_item-text">Работать с SkillTelecom одно удовольствие. Продажи увеличились на 30% и все благодаря их качественным специалистам по маркетингу</div>
-											<div class="reviews_item-bottom">
-												<div class="reviews_item-author">
-													<div class="reviews_item-name">Ирина Петрова</div>
-													<div class="reviews_item-post">Директор Segment</div>
-												</div>
-												<div class="reviews_item-company">
-													<img data-src="images/reviews-company.svg" alt="" class="swiper-lazy">
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="swiper-slide">
-									<div class="reviews_item">
-										<div class="reviews_item-img">
-											<img data-src="images/reviews1.png" alt="" class="swiper-lazy">
-										</div>
-										<div class="reviews_item-info">
-											<svg class="reviews_item-icon"><use xlink:href="#quote"></use></svg>
-											<div class="reviews_item-rating">
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-												<svg class="icon"><use xlink:href="#star"></use></svg>
-											</div>
-											<div class="reviews_item-text">Работать с SkillTelecom одно удовольствие. Продажи увеличились на 30% и все благодаря их качественным специалистам по маркетингу</div>
-											<div class="reviews_item-bottom">
-												<div class="reviews_item-author">
-													<div class="reviews_item-name">Ирина Петрова</div>
-													<div class="reviews_item-post">Директор Segment</div>
-												</div>
-												<div class="reviews_item-company">
-													<img data-src="images/reviews-company.svg" alt="" class="swiper-lazy">
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="swiper-pagination"></div>
-
-							<div class="swiper-button-prev">
-								<svg class="icon"><use xlink:href="#prev"></use></svg>
-							</div>
-							<div class="swiper-button-next">
-								<svg class="icon"><use xlink:href="#next"></use></svg>
-							</div>
-						</div>
-					</div>
-				 </section>         
-
-
-
-				<section class="standart">
-					<div class="cont">
-						<div class="block_head center">
-							<div class="pre_title">РАБОТАЙТЕ С НАМИ</div>
-							<div class="title">Выведем ваш бизнес на совершенно<br> новый уровень</div>
-							<div class="desc">Обучаем ваших сотрудников. Какое то описание этого пунтка, тоже на пару тройку строк. Что то еще</div>
-							<a href="#" class="link modal_link" data-content="#modal_callback">
-								<span>Связаться с нами</span>								
-							</a>
-						</div>
-					</div>
-				</section>
-
-
-				<section class="team">
-					<div class="cont">
+			<section class="video">
+				<div class="cont">
+					<div class="video_wrap">
 						<div class="block_head">
-							<div class="title">Наши сотрудники</div>
-							<div class="desc">Наша компания занимается разработкой IT-решений для увелечения прибыли и доходности вашей компании.  Разработчики платформы XSkill. Работаем с 2005 года.</div>
+							<div class="pre_title">ЧТО ВЫ ПОЛУЧИТЕ</div>
+							<div class="title">Посмотрите видео<br> о пользе работы с <span>Telecom Media</span></div>
+							<div class="desc">Наша компания работает через 3 основные схемы.<br> Это консалтинг,
+								обучение и отдел продаж в аренду. Какой то описание</div>
+						</div>
+						<a href="https://www.youtube.com/watch?v=L256daBIAtU" data-fancybox="" class="video_link">
+							<img data-src="images/video_img.jpg" alt="" class="lazyload">
+							<div class="icon">
+								<svg>
+									<use xlink:href="#play"></use>
+								</svg>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="callback" id="callback">
+				<div class="cont">
+					<div class="callback_left">
+						<div class="callback_box">
+							<div class="callback_title">Связаться с нами</div>
+							<div class="callback_items">
+								<div class="callback_item">
+									<div class="label">Телефон:</div>
+									<a href="tel:88001231213" class="callback_phone">8(800)123-12-13</a>
+								</div>
+								<div class="callback_item">
+									<div class="label">E-Mail</div>
+									<a href="mailto:telecom-media@gmail.com"
+										class="callback_email">telecom-media@gmail.com</a>
+								</div>
+							</div>
+						</div>
+						<div class="callback_box">
+							<div class="callback_title">Реквизиты</div>
+							<div class="callback_items">
+								<div class="callback_item">
+									<p>ООО ТЕЛЕКОМ МЕДИА</p>
+									<p>109559, г. Москва, ул.<br> Новороссийская, дом 27, кв. 4</p>
+								</div>
+								<div class="callback_item">
+									<p>ИНН 772394411530</p>
+									<p>ОГРН 315774600443662</p>
+								</div>
+							</div>
+						</div>
+						<div class="callback_soc">
+							<a href="#"><svg class="icon">
+									<use xlink:href="#vk"></use>
+								</svg></a>
+							<a href="#"><svg class="icon">
+									<use xlink:href="#telegram"></use>
+								</svg></a>
 						</div>
 					</div>
-					<marquee width="100%" behavior="scroll" truespeed="10">
-						<div class="team_items">
-							<div class="team_item">
-								<div class="team_item-photo">
-									<img data-src="images/team1.jpg" alt="" class="lazyload">
-								</div>
-								<div class="team_item-name">Василий Петров</div>
-								<div class="team_item-post">Гланый инженер. Имеет опыт с 2013 года. Руководит всеми проектами</div>
-							</div>
-							<div class="team_item">
-								<div class="team_item-photo">
-									<img data-src="images/team2.jpg" alt="" class="lazyload">
-								</div>
-								<div class="team_item-name">Василий Петров</div>
-								<div class="team_item-post">Дизайнер. Создает дизайны для наших сайтов</div>
-							</div>
-							<div class="team_item">
-								<div class="team_item-photo">
-									<img data-src="images/team3.jpg" alt="" class="lazyload">
-								</div>
-								<div class="team_item-name">Василий Петров</div>
-								<div class="team_item-post">Генеральный директор. Руководит всеми проектами. Опыт с 2005 года</div>
-							</div>
-							<div class="team_item">
-								<div class="team_item-photo">
-									<img data-src="images/team4.jpg" alt="" class="lazyload">
-								</div>
-								<div class="team_item-name">Василий Петров</div>
-								<div class="team_item-post">Дизайнер. Создает дизайны для наших сайтов</div>
-							</div>
-							<div class="team_item">
-								<div class="team_item-photo">
-									<img data-src="images/team5.jpg" alt="" class="lazyload">
-								</div>
-								<div class="team_item-name">Василий Петров</div>
-								<div class="team_item-post">Дизайнер. Создает дизайны для наших сайтов</div>
-							</div>
-							<div class="team_item">
-								<div class="team_item-photo">
-									<img data-src="images/team1.jpg" alt="" class="lazyload">
-								</div>
-								<div class="team_item-name">Василий Петров</div>
-								<div class="team_item-post">Гланый инженер. Имеет опыт с 2013 года. Руководит всеми проектами</div>
-							</div>
-							<div class="team_item">
-								<div class="team_item-photo">
-									<img data-src="images/team2.jpg" alt="" class="lazyload">
-								</div>
-								<div class="team_item-name">Василий Петров</div>
-								<div class="team_item-post">Дизайнер. Создает дизайны для наших сайтов</div>
-							</div>
-							<div class="team_item">
-								<div class="team_item-photo">
-									<img data-src="images/team3.jpg" alt="" class="lazyload">
-								</div>
-								<div class="team_item-name">Василий Петров</div>
-								<div class="team_item-post">Генеральный директор. Руководит всеми проектами. Опыт с 2005 года</div>
-							</div>
-							<div class="team_item">
-								<div class="team_item-photo">
-									<img data-src="images/team4.jpg" alt="" class="lazyload">
-								</div>
-								<div class="team_item-name">Василий Петров</div>
-								<div class="team_item-post">Дизайнер. Создает дизайны для наших сайтов</div>
-							</div>
-							<div class="team_item">
-								<div class="team_item-photo">
-									<img data-src="images/team5.jpg" alt="" class="lazyload">
-								</div>
-								<div class="team_item-name">Василий Петров</div>
-								<div class="team_item-post">Дизайнер. Создает дизайны для наших сайтов</div>
-							</div>
-						</div>
-					</marquee>
-				</section>
-
-
-				<section class="progress">
-					<div class="cont">
-						<div class="progress_wrap">
-							<div class="block_head">
-								<div class="title">Продвинем ваш бизнес<br> на новый уровень</div>
-								<div class="desc">Обучаем ваших сотрудников. Какое то описание этого пунтка, тоже на пару тройку строк. Что то еще</div>
-							</div>	
+					<div class="callback_right">
+						<div class="callback_box">
+							<div class="callback_title">Заказать звонок</div>
 							<form>
 								<div class="line">
 									<div class="field">
-										<input type="email" placeholder="Email">
+										<input type="text" placeholder="Ваше ФИО">
 									</div>
 								</div>
 								<div class="line">
 									<div class="field">
-										<input type="text" placeholder="Ваше имя">
+										<input type="tel" placeholder="Ваш Телефон">
 									</div>
 								</div>
-								<button type="submit">
-									<span>Заказать звонок</span>
+								<div class="line">
+									<div class="field">
+										<textarea placeholder="По какому вопросу хотели бы обратиться"></textarea>
+									</div>
+								</div>
+								<button>
+									<span>Заказать обратный звонок</span>
 								</button>
 							</form>
-						</div>						
-					</div>
-				</section>
-
-
-				<section class="sector">
-					<div class="cont">
-						<div class="block_head center">
-							<div class="title">Сферы, с которыми мы работали</div>
-							<div class="desc">Наша компания занимается разработкой IT-решений для увелечения прибыли и доходности вашей компании.  Разработчики платформы XSkill. Работаем с 2005 года.</div>
-						</div>
-					</div>	
-					<marquee width="100%" behavior="scroll" loop="1000" truespeed="100">
-						<ul>
-							<li>ремонт квартир</li>
-							<li>реклама</li>
-							<li>оптовые продажи</li>
-							<li>сотовая связь</li>
-							<li>корма для животных</li>
-							<li>техника</li>
-							<li>оптовые продажи</li>
-							<li>сотовая связь</li>
-							<li>корма для животных</li>			
-						</ul>
-					</marquee>
-					<marquee width="100%" behavior="scroll" loop="1000" truespeed="100">
-						<ul>
-							<li>мобильные приложения</li>
-							<li>салоны красоты</li>
-							<li>оптовые продажи</li>
-							<li>сотовая связь</li>
-							<li>маркетинг</li>
-							<li>маркетинг</li>
-							<li>оптовые продажи</li>
-							<li>сотовая связь</li>
-							<li>корма для животных</li>			
-						</ul>
-					</marquee>
-					<marquee width="100%" behavior="scroll" loop="1000" truespeed="100">
-						<ul>
-							<li>маркетинг</li>
-							<li>маркетинг</li>
-							<li>оптовые продажи</li>
-							<li>техника</li>
-							<li>оптовые продажи</li>
-							<li>сотовая связь</li>
-							<li>корма для животных</li>	
-							<li>корма для животных</li>	
-							<li>корма для животных</li>	
-						</ul>
-					</marquee>
-				</section>
-
-
-
-
-				<section class="video">
-					<div class="cont">
-						<div class="video_wrap">
-							<div class="block_head">
-								<div class="pre_title">ЧТО ВЫ ПОЛУЧИТЕ</div>
-								<div class="title">Посмотрите видео<br> о пользе работы с <span>Telecom Media</span></div>
-								<div class="desc">Наша компания работает через 3 основные схемы.<br> Это консалтинг, обучение и отдел продаж в аренду. Какой то описание</div>
-							</div>	
-							<a href="https://www.youtube.com/watch?v=L256daBIAtU" data-fancybox="" class="video_link">
-								<img data-src="images/video_img.jpg" alt="" class="lazyload">
-								<div class="icon">
-									<svg><use xlink:href="#play"></use></svg>
-								</div>
-							</a>
-						</div>						
-					</div>
-				</section>
-
-
-				<section class="callback" id="callback">
-					<div class="cont">
-						<div class="callback_left">		
-							<div class="callback_box">
-								<div class="callback_title">Связаться с нами</div>
-								<div class="callback_items">
-									<div class="callback_item">
-										<div class="label">Телефон:</div>
-										<a href="tel:88001231213" class="callback_phone">8(800)123-12-13</a>
-									</div>
-									<div class="callback_item">
-										<div class="label">E-Mail</div>
-										<a href="mailto:telecom-media@gmail.com" class="callback_email">telecom-media@gmail.com</a>
-									</div>
-								</div>	
-							</div>	
-							<div class="callback_box">
-								<div class="callback_title">Реквизиты</div>
-								<div class="callback_items">
-									<div class="callback_item">
-										<p>ООО ТЕЛЕКОМ МЕДИА</p>
-										<p>109559, г. Москва, ул.<br> Новороссийская, дом 27, кв. 4</p>
-									</div>
-									<div class="callback_item">
-										<p>ИНН 772394411530</p>
-										<p>ОГРН 315774600443662</p>
-									</div>
-								</div>	
-							</div>	
-							<div class="callback_soc">
-								<a href="#"><svg class="icon"><use xlink:href="#vk"></use></svg></a>
-								<a href="#"><svg class="icon"><use xlink:href="#telegram"></use></svg></a>
-							</div>			
-						</div>
-						<div class="callback_right">
-							<div class="callback_box">
-								<div class="callback_title">Заказать звонок</div>
-								<form>
-									<div class="line">
-										<div class="field">
-											<input type="text" placeholder="Ваше ФИО">
-										</div>
-									</div>
-									<div class="line">
-										<div class="field">
-											<input type="tel" placeholder="Ваш Телефон">
-										</div>
-									</div>
-									<div class="line">
-										<div class="field">
-											<textarea placeholder="По какому вопросу хотели бы обратиться"></textarea>
-										</div>
-									</div>
-									<button>
-										<span>Заказать обратный звонок</span>
-									</button>
-								</form>
-							</div>	
 						</div>
 					</div>
-				</section>
+				</div>
+			</section>
 
 
 
 
-				<section class="faq accordion">
-					<div class="cont">
-						<div class="block_head center">
-							<div class="title">Ответы на Вопросы (FAQ)</div>
-							<div class="desc">Наша компания занимается разработкой IT-решений для увелечения прибыли и доходности вашей компании.  Разработчики платформы XSkill. Работаем с 2005 года.</div>
-						</div>
-						<div class="accordion_item active">
-							<div class="head">
-								<div class="title">Кто мы такие</div>
-								<svg class="icon"><use xlink:href="#accord-arr"></use></svg>
-							</div>
-							<div class="data" style="display: block;">
-								<p>Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков.
-									<br>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам.
-								</p>
-							</div>
-						</div>
-						<div class="accordion_item">
-							<div class="head">
-								<div class="title">Чем занимается</div>
-								<svg class="icon"><use xlink:href="#accord-arr"></use></svg>
-							</div>
-							<div class="data">
-								<p>Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков.
-									<br>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам.
-								</p>
-							</div>
-						</div>
-						<div class="accordion_item">
-							<div class="head">
-								<div class="title">Наши реквизиты</div>
-								<svg class="icon"><use xlink:href="#accord-arr"></use></svg>
-							</div>
-							<div class="data">
-								<p>Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как к количеству знаков. Система управления знаниями и навыками Xskill состоит из разных модулей - какие-то из них являются стандартом в обучении, <b>а какие-то наша уникальная разработка.</b></p>
-							</div>
-						</div>
-					</div>
-				</section>
-
-
-			</div>
-
-
-
-			<footer>
+			<section class="faq accordion">
 				<div class="cont">
-					<div class="footer_left">
-						<a href="#">
-							<svg class="icon"><use xlink:href="#footer_logo"></use></svg>
-						</a>
-						<div class="footer_left-text">Повышаем прибыль и<br> доходность компаний</div>
+					<div class="block_head center">
+						<div class="title">Ответы на Вопросы (FAQ)</div>
+						<div class="desc">Наша компания занимается разработкой IT-решений для увелечения прибыли и
+							доходности вашей компании. Разработчики платформы XSkill. Работаем с 2005 года.</div>
 					</div>
-					<div class="footer_right">
-						<div class="footer_links">
-							<a href="mailto:admin@telecom-media.com">admin@telecom-media.com</a>
-							<a href="tel:88001231213">8(800)123-12-13</a>
+					<div class="accordion_item active">
+						<div class="head">
+							<div class="title">Кто мы такие</div>
+							<svg class="icon">
+								<use xlink:href="#accord-arr"></use>
+							</svg>
 						</div>
-						<div class="footer_copyright">© 2023 Все права защищены. Telecom-Media.com</div>
+						<div class="data" style="display: block;">
+							<p>Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и
+								журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как
+								к количеству знаков.
+								<br>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем
+								именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким
+								образом, авторские права на реферат принадлежат только вам.
+							</p>
+						</div>
+					</div>
+					<div class="accordion_item">
+						<div class="head">
+							<div class="title">Чем занимается</div>
+							<svg class="icon">
+								<use xlink:href="#accord-arr"></use>
+							</svg>
+						</div>
+						<div class="data">
+							<p>Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и
+								журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как
+								к количеству знаков.
+								<br>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем
+								именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким
+								образом, авторские права на реферат принадлежат только вам.
+							</p>
+						</div>
+					</div>
+					<div class="accordion_item">
+						<div class="head">
+							<div class="title">Наши реквизиты</div>
+							<svg class="icon">
+								<use xlink:href="#accord-arr"></use>
+							</svg>
+						</div>
+						<div class="data">
+							<p>Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и
+								журналистов, создателей научных заявок и отчетов — для всех, кто относится к тексту, как
+								к количеству знаков. Система управления знаниями и навыками Xskill состоит из разных
+								модулей - какие-то из них являются стандартом в обучении, <b>а какие-то наша уникальная
+									разработка.</b></p>
+						</div>
 					</div>
 				</div>
-			</footer>
+			</section>
 
 
-			<div class="overlay"></div>
 		</div>
 
 
-		<div class="supports_error">
-			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
-		</div>
 
-
-
-
-		<section class="modal progress" id="modal_callback">
-			<div class="modal_title">Заказать звонок</div>
-			<form>
-				<div class="line">
-					<div class="field">
-						<input type="email" placeholder="Email">
-					</div>
+		<footer>
+			<div class="cont">
+				<div class="footer_left">
+					<a href="#">
+						<svg class="icon">
+							<use xlink:href="#footer_logo"></use>
+						</svg>
+					</a>
+					<div class="footer_left-text">Повышаем прибыль и<br> доходность компаний</div>
 				</div>
-				<div class="line">
-					<div class="field">
-						<input type="text" placeholder="Ваше имя">
+				<div class="footer_right">
+					<div class="footer_links">
+						<a href="mailto:admin@telecom-media.com">admin@telecom-media.com</a>
+						<a href="tel:88001231213">8(800)123-12-13</a>
 					</div>
+					<div class="footer_copyright">© 2023 Все права защищены. Telecom-Media.com</div>
 				</div>
-				<button type="submit">
-					<span>Заказать звонок</span>
-				</button>
-			</form>
-		</section>
+			</div>
+		</footer>
+
+
+		<div class="overlay"></div>
+	</div>
+
+
+	<div class="supports_error">
+		Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+	</div>
 
 
 
-		<svg width="0" height="0" class="hidden">
-			<defs>
 
-				<symbol width="131" height="49" viewBox="0 0 131 49" xmlns="http://www.w3.org/2000/svg" id="logo">
-					<path fill-rule="evenodd" clip-rule="evenodd" d="M0.210485 11.8999V0H49.0349V11.8999H32.3977V18.336H16.8476V11.8999H0.210485ZM0 20.9149V24.7833H32.3977V20.9149H0ZM16.8476 33.8096V27.3623H32.3977V33.8096H16.8476ZM16.7783 36.3886V40.9018H16.8476H32.3977H36.7832H49.0443V36.3886H16.7783ZM55.6992 36.3886V40.9018H71.202V36.3886H55.6992ZM74.1383 33.8096L71.202 26.4915V33.8096H55.6992V0H73.7072L85.0506 27.2943L96.3941 0H114.402V33.8096H98.8992V26.4915L95.963 33.8096H74.1383ZM75.1727 36.3886L76.9835 40.9018H93.1178L94.9285 36.3886H75.1727ZM98.8992 36.3886V40.9018H131V36.3886H98.8992ZM16.8476 43.4807H32.3977V48.6386H16.8476V43.4807ZM55.6992 43.4807V48.6386H71.202V43.4807H55.6992ZM78.0186 43.4807L80.0875 48.6386H90.0131L92.0827 43.4807H78.0186ZM98.8992 43.4807V48.6386H114.402V43.4807H98.8992Z" fill="url(#paint0_linear_2276_19340)"/>
-					<defs>
-					<linearGradient id="paint0_linear_2276_19340" x1="84.7551" y1="-31.9535" x2="84.7551" y2="82.1649" gradientUnits="userSpaceOnUse">
+	<section class="modal progress" id="modal_callback">
+		<div class="modal_title">Заказать звонок</div>
+		<form>
+			<div class="line">
+				<div class="field">
+					<input type="email" placeholder="Email">
+				</div>
+			</div>
+			<div class="line">
+				<div class="field">
+					<input type="text" placeholder="Ваше имя">
+				</div>
+			</div>
+			<button type="submit">
+				<span>Заказать звонок</span>
+			</button>
+		</form>
+	</section>
+
+
+
+	<svg width="0" height="0" class="hidden">
+		<defs>
+
+			<symbol width="131" height="49" viewBox="0 0 131 49" xmlns="http://www.w3.org/2000/svg" id="logo">
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M0.210485 11.8999V0H49.0349V11.8999H32.3977V18.336H16.8476V11.8999H0.210485ZM0 20.9149V24.7833H32.3977V20.9149H0ZM16.8476 33.8096V27.3623H32.3977V33.8096H16.8476ZM16.7783 36.3886V40.9018H16.8476H32.3977H36.7832H49.0443V36.3886H16.7783ZM55.6992 36.3886V40.9018H71.202V36.3886H55.6992ZM74.1383 33.8096L71.202 26.4915V33.8096H55.6992V0H73.7072L85.0506 27.2943L96.3941 0H114.402V33.8096H98.8992V26.4915L95.963 33.8096H74.1383ZM75.1727 36.3886L76.9835 40.9018H93.1178L94.9285 36.3886H75.1727ZM98.8992 36.3886V40.9018H131V36.3886H98.8992ZM16.8476 43.4807H32.3977V48.6386H16.8476V43.4807ZM55.6992 43.4807V48.6386H71.202V43.4807H55.6992ZM78.0186 43.4807L80.0875 48.6386H90.0131L92.0827 43.4807H78.0186ZM98.8992 43.4807V48.6386H114.402V43.4807H98.8992Z"
+					fill="url(#paint0_linear_2276_19340)" />
+				<defs>
+					<linearGradient id="paint0_linear_2276_19340" x1="84.7551" y1="-31.9535" x2="84.7551" y2="82.1649"
+						gradientUnits="userSpaceOnUse">
 						<stop stop-color="var(--text_bg1)"></stop>
 						<stop offset="1" stop-color="var(--text_bg2)"></stop>
 					</linearGradient>
-					</defs>
-				</symbol>
-
-				<symbol width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" id="check">
-				  <circle cx="9" cy="9" r="9" fill="currentColor"/>
-				  <path d="M5 9L7.8 12L13 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-				</symbol>
-			
-				<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" id="promotion1">
-					<path d="M42.375 15C42.4992 13.7508 42.4992 12.6258 42.4992 11.25H17.5008C17.5008 12.6258 17.5008 13.7508 17.6251 15H10.0009V16.2492C10.0009 27.375 24.1267 35.25 27.5017 36.9984L27.4993 41.2499C27.4993 43.3757 25.8751 44.9999 23.7493 44.9999H21.2485V49.9991H38.7493V44.9999H36.2485C34.1227 44.9999 32.4985 43.3757 32.4985 41.2499V37.0007C35.8735 35.2499 49.9993 27.3749 49.9993 16.2515V15.0023L42.375 15ZM12.6258 17.5008H17.8758C18.375 23.1258 19.7508 27.1266 21.2508 30C17.25 26.8758 13.125 22.5 12.6258 17.5008ZM38.8758 30C40.3758 27.1242 41.7516 23.1258 42.2508 17.5008H47.5008C46.875 22.5 42.75 26.8758 38.8758 30Z" fill="url(#paint0_linear_2276_19440)"></path>
-					<defs>
-					  <linearGradient id="paint0_linear_2276_19440" x1="35.8793" y1="-14.2066" x2="35.8793" y2="76.7087" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					</defs>
-				</symbol>
-
-				<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" id="promotion2">
-					<path d="M11.2499 28.7507C11.1257 28.7507 10.875 28.7507 10.7507 28.875C10.2492 28.9992 10.0007 29.5008 10.0007 30V38.7492C10.0007 44.3742 15.6257 49.9992 21.2507 49.9992H25.0007V42L12.1241 29.1258C11.8757 28.875 11.6249 28.7508 11.2499 28.7508L11.2499 28.7507Z" fill="url(#paint0_linear_2276_19449)"></path>
-					<path d="M49.2491 28.875C49.1249 28.7507 48.8741 28.7507 48.7499 28.7507C48.3749 28.7507 48.1241 28.875 47.8757 29.1257L32.5007 44.5007V32.2499C48.6257 29.8757 39.8765 10.7507 39.8765 10.7507C39.7499 10.3757 39.2507 10.0007 38.7491 10.0007C38.2499 10.0007 37.7483 10.3757 37.6241 10.8749L34.3733 16.6241L31.1225 10.8749C31.0007 10.3757 30.4991 10.0007 29.9999 10.0007C29.5007 10.0007 28.9991 10.3757 28.8749 10.8749L25.6241 16.6241L22.3733 10.8749C22.2491 10.3757 21.7498 10.0007 21.2506 10.0007C20.7514 10.0007 20.2498 10.3757 20.1256 10.8749C20.1256 10.8749 11.3764 29.9999 27.5014 32.3741L27.4991 49.9991H38.7491C44.3741 49.9991 49.9991 44.3741 49.9991 38.7491V29.9999C49.9991 29.5007 49.7506 28.9991 49.2491 28.8749L49.2491 28.875Z" fill="url(#paint1_linear_2276_19449)"></path>
-					<defs>
-					  <linearGradient id="paint0_linear_2276_19449" x1="19.7055" y1="14.7914" x2="19.7055" y2="64.6456" gradientUnits="userSpaceOnUse">
-						<stop stop-color="#F33726"></stop>
-						<stop offset="1" stop-color="#FD9B41"></stop>
-					  </linearGradient>
-					  <linearGradient id="paint1_linear_2276_19449" x1="38.6168" y1="-16.2765" x2="38.6168" y2="77.5698" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					</defs>
-				</symbol>
-
-				<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" id="promotion3">
-					<path d="M48.3749 40.6243L43.8749 33.7501V33.6259L51.2507 30.0001L43.8749 26.3743V26.25L48.3749 19.3758L40.1249 19.8751L40.6242 11.6251L33.75 16.1251H33.6257L29.9999 8.74927L26.3741 16.1251H26.2499L19.3757 11.6251L19.8749 19.8751L11.6249 19.3758L16.1249 26.25V26.3743L8.74915 30.0001L16.1249 33.6259V33.7501L11.6249 40.6243L19.8749 40.1251L19.3757 48.3751L26.2499 43.8751H26.3741L29.9999 51.2509L33.6257 43.8751H33.75L40.6242 48.3751L40.1249 40.1251L48.3749 40.6243ZM29.9999 40.0008C24.4991 40.0008 19.9991 35.5008 19.9991 30C19.9991 24.4992 24.4991 19.9992 29.9999 19.9992C35.5007 19.9992 40.0007 24.4992 40.0007 30C40.0007 35.5008 35.5007 40.0008 29.9999 40.0008Z" fill="url(#paint0_linear_2276_19460)"></path>
-					<path d="M30 22.5C25.875 22.5 22.5 25.875 22.5 30C22.5 34.125 25.875 37.5 30 37.5C34.125 37.5 37.5 34.125 37.5 30C37.5 25.875 34.125 22.5 30 22.5Z" fill="url(#paint1_linear_2276_19460)"></path>
-					<defs>
-					  <linearGradient id="paint0_linear_2276_19460" x1="36.2471" y1="-19.1725" x2="36.2471" y2="80.547" gradientUnits="userSpaceOnUse">
-						<stop stop-color="#F33726"></stop>
-						<stop offset="1" stop-color="#FD9B41"></stop>
-					  </linearGradient>
-					  <linearGradient id="paint1_linear_2276_19460" x1="32.2048" y1="12.6456" x2="32.2048" y2="47.8394" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					</defs>
-				</symbol>
-			
-				<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 10" id="arrow">
-					<path d="M0 4.75H11.5M11.5 4.75L7 0.75M11.5 4.75L7 9.25" stroke="url(#paint0_linear_2276_19445)" stroke-width="2"></path>
-					<defs>
-					  <linearGradient id="paint0_linear_2276_19445" x1="7.44033" y1="-4.83414" x2="7.44033" y2="15.109" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					</defs>
-				</symbol>
-
-				<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" id="advantages1">
-					<path d="M35.8755 17.5006H24.588L20.9999 6.12451L17.4119 17.5006H6.12439L15.7499 24.4995L11.3744 35.8756L20.9999 28.8751L30.6255 35.8756L26.25 24.4995L35.8755 17.5006Z" fill="url(#paint0_linear_2276_19403)"></path>
-					<defs>
-					  <linearGradient id="paint0_linear_2276_19403" x1="25.3729" y1="-13.4207" x2="25.3729" y2="56.3829" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					</defs>
-				</symbol>
-
-				<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" id="advantages2">
-					<path d="M31.5 16.6245C31.5 15.5745 30.8881 14.6115 29.925 14.262C30.537 13.4745 30.6256 12.3376 30.1006 11.3745C29.5756 10.4115 28.5256 9.97508 27.5625 10.062C27.6495 9.09896 27.2131 8.04896 26.25 7.52396C25.287 6.99896 24.237 7.0859 23.3625 7.69951C23.0131 6.73809 22.05 6.12451 21 6.12451C19.95 6.12451 18.987 6.73645 18.6375 7.69951C17.7631 7.08757 16.7131 7.00059 15.75 7.52561C14.787 8.05062 14.3506 9.10061 14.4375 10.0637C13.4745 9.97671 12.4245 10.4131 11.8995 11.3762C11.3745 12.3392 11.4614 13.3892 12.075 14.2637C11.2006 14.7017 10.5 15.5762 10.5 16.6262C10.5 17.6762 11.1119 18.6392 12.075 18.9887C11.4631 19.7762 11.3744 20.9131 11.8995 21.8762C12.4245 22.8392 13.4745 23.2756 14.4375 23.1887C14.3506 24.1517 14.787 25.2017 15.75 25.7267C15.75 25.7267 15.837 25.7267 15.837 25.8137L13.212 34.2137L16.5375 32.4631L18.2881 35.7887L21 27.1262H21.087H21.1739L23.8859 35.8756L25.6364 32.5501L28.962 34.3006L26.2501 25.8137C26.2501 25.8137 26.337 25.8137 26.337 25.7267C27.3001 25.2017 27.7364 24.1517 27.6495 23.1887C28.6126 23.2756 29.6626 22.8392 30.1876 21.8762C30.7126 20.9131 30.6256 19.8631 30.012 18.9887C30.8881 18.6376 31.5001 17.6745 31.5001 16.6245L31.5 16.6245ZM21 22.7506C17.5875 22.7506 14.8756 20.0387 14.8756 16.6262C14.8756 13.2137 17.5875 10.5018 21 10.5018C24.4125 10.5018 27.1245 13.2137 27.1245 16.6262C27.1245 20.0371 24.4125 22.7506 21 22.7506Z" fill="url(#paint0_linear_2276_19408)"></path>
-					<defs>
-					  <linearGradient id="paint0_linear_2276_19408" x1="24.0867" y1="-13.4207" x2="24.0867" y2="56.3829" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					</defs>
-				</symbol>
-
-				<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" id="advantages3">
-					<path d="M21.0003 13.125C17.1498 13.125 13.9998 16.275 13.9998 20.1256C13.9998 21.7006 14.5248 23.1 15.3992 24.2386C15.3992 24.2386 15.6617 24.5881 15.7486 24.6767C16.5361 25.6397 18.4606 28.3517 18.4606 30.6272H23.7106C23.7106 28.3517 25.635 25.6397 26.4225 24.6767C26.5095 24.5897 26.772 24.2386 26.772 24.2386C27.6464 23.1017 28.1714 21.6136 28.1714 20.1256C28.0008 16.275 24.8508 13.125 21.0003 13.125H21.0003Z" fill="url(#paint0_linear_2276_19413)"></path>
-					<path d="M18.375 32.3745H23.625V35.874H18.375V32.3745Z" fill="url(#paint1_linear_2276_19413)"></path>
-					<path d="M7.00098 19.2495H12.251V21.0001H7.00098V19.2495Z" fill="url(#paint2_linear_2276_19413)"></path>
-					<path d="M29.7498 19.2495H34.9998V21.0001H29.7498V19.2495Z" fill="url(#paint3_linear_2276_19413)"></path>
-					<path d="M30.2908 9.60596L31.5279 10.843L27.8152 14.5557L26.5781 13.3187L30.2908 9.60596Z" fill="url(#paint4_linear_2276_19413)"></path>
-					<path d="M20.126 6.12451H21.8765V11.3745H20.126V6.12451Z" fill="url(#paint5_linear_2276_19413)"></path>
-					<path d="M11.7192 9.5979L15.4319 13.3106L14.1949 14.5476L10.4822 10.8349L11.7192 9.5979Z" fill="url(#paint6_linear_2276_19413)"></path>
-					<defs>
-					  <linearGradient id="paint0_linear_2276_19413" x1="23.1686" y1="1.62676" x2="23.1686" y2="42.6914" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					  <linearGradient id="paint1_linear_2276_19413" x1="21.7717" y1="30.0755" x2="21.7717" y2="38.2861" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					  <linearGradient id="paint2_linear_2276_19413" x1="10.3976" y1="18.0995" x2="10.3976" y2="22.2067" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					  <linearGradient id="paint3_linear_2276_19413" x1="33.1464" y1="18.0995" x2="33.1464" y2="22.2067" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					  <linearGradient id="paint4_linear_2276_19413" x1="29.7805" y1="6.35418" x2="29.7805" y2="17.9675" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					  <linearGradient id="paint5_linear_2276_19413" x1="21.2586" y1="2.67548" x2="21.2586" y2="14.9933" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					  <linearGradient id="paint6_linear_2276_19413" x1="13.6846" y1="6.34613" x2="13.6846" y2="17.9595" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					</defs>
-				</symbol>
-
-				<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 33" id="play">
-					<path d="M27.3505 15.635C27.9966 16.0236 27.9966 16.9603 27.3505 17.3489L1.67255 32.7918C1.00604 33.1926 0.157168 32.7125 0.157168 31.9348L0.157169 1.04907C0.157169 0.271311 1.00604 -0.208738 1.67255 0.192104L27.3505 15.635Z" fill="url(#paint0_linear_2276_20098)"></path>
-					<defs>
-					  <linearGradient id="paint0_linear_2276_20098" x1="53.8433" y1="22.3342" x2="-35.6841" y2="22.3342" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					</defs>
-				</symbol>
-
-				<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 55" id="vk">
-					<rect x="-0.000976562" y="0.473633" width="53.9302" height="53.9198" rx="7.63611" fill="#436EAB"></rect>
-					<path d="M36.3966 29.531C37.3062 30.419 38.2662 31.2543 39.0821 32.2318C39.4425 32.6661 39.7837 33.1144 40.0447 33.6185C40.4146 34.3351 40.0796 35.1236 39.437 35.1664L35.442 35.1645C34.4116 35.25 33.5897 34.8354 32.8985 34.131C32.3454 33.5677 31.8332 32.9682 31.3014 32.3859C31.0833 32.148 30.8551 31.9241 30.5824 31.747C30.0371 31.3931 29.5637 31.5015 29.2521 32.0701C28.9346 32.6485 28.8626 33.289 28.8314 33.9336C28.7887 34.8741 28.5043 35.1214 27.5594 35.1645C25.54 35.2597 23.6234 34.9543 21.8429 33.9357C20.2732 33.0378 19.0561 31.7702 17.9966 30.3351C15.9338 27.5407 14.3541 24.4701 12.9344 21.3136C12.6148 20.6024 12.8485 20.2207 13.6334 20.2071C14.9366 20.1818 16.2397 20.1836 17.5445 20.2053C18.0742 20.2131 18.4249 20.5168 18.6294 21.0171C19.3345 22.7506 20.1973 24.3997 21.2802 25.9284C21.5687 26.3353 21.8628 26.7424 22.2815 27.0288C22.7447 27.346 23.0975 27.2408 23.3155 26.7248C23.4537 26.3976 23.5143 26.0452 23.5455 25.6949C23.6488 24.4893 23.6624 23.2858 23.4813 22.0845C23.3701 21.3348 22.9477 20.8494 22.1994 20.7076C21.8176 20.6352 21.8745 20.4932 22.0594 20.2753C22.3804 19.8995 22.6824 19.6655 23.2845 19.6655H27.7994C28.5102 19.8058 28.668 20.125 28.7654 20.8401L28.7692 25.8542C28.7614 26.131 28.9075 26.9525 29.4061 27.1357C29.8053 27.2661 30.0684 26.9469 30.3079 26.6938C31.3888 25.5468 32.1604 24.1911 32.8496 22.7874C33.1555 22.1702 33.4185 21.5292 33.6734 20.8887C33.8622 20.4134 34.1586 20.1796 34.694 20.1899L39.0393 20.1938C39.1682 20.1938 39.2986 20.1957 39.4233 20.217C40.1556 20.3418 40.3562 20.6567 40.1301 21.3716C39.7738 22.4932 39.0805 23.4278 38.4025 24.3669C37.6779 25.3693 36.9029 26.3375 36.1842 27.346C35.524 28.267 35.5764 28.7312 36.3966 29.531Z" fill="white"></path>
-				</symbol>
-
-				<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" id="telegram">
-					<rect x="0.704102" y="0.473633" width="53.9302" height="53.9198" rx="7.63611" fill="#00AADF"></rect>
-					<path fill-rule="evenodd" clip-rule="evenodd" d="M13.502 26.7499L40.9241 15.0962L40.9241 15.0964L22.2841 29.3487L23.2501 39.2199L23.2499 39.2201L20.6908 29.6024L13.502 26.7499ZM23.2501 39.2198L23.2501 39.2201L23.2501 39.2199L23.2501 39.2198ZM23.2501 39.2198L23.6235 30.8353L40.9241 15.0964L35.6281 39.9488L27.962 34.6553L23.2501 39.2198ZM40.9241 15.0964L40.9241 15.0964L40.9243 15.0962L40.9241 15.0964Z" fill="white"></path>
-					<path d="M40.9232 15.0962L23.6224 30.8353L23.249 39.2201L27.9612 34.6553L35.6272 39.9488L40.9232 15.0962Z" fill="white"></path>
-				</symbol>
-
-				<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 20" id="accord-arr">
-					<path d="M11.493 9.01643C11.8264 9.30515 11.8264 9.82234 11.493 10.1111L1.37647 18.8722C0.907552 19.2783 0.178442 18.9452 0.178442 18.3249L0.178443 0.802563C0.178443 0.182245 0.907552 -0.150851 1.37647 0.255243L11.493 9.01643Z" fill="url(#paint0_linear_2276_20182)"></path>
-					<defs>
-					  <linearGradient id="paint0_linear_2276_20182" x1="22.5895" y1="13.0757" x2="-14.7833" y2="13.0757" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					</defs>
-				</symbol>
-
-				<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 27" id="quote">
-					<path d="M31 0.26625L30.2177 5.88921C28.653 5.75768 27.3817 6.02075 26.4038 6.6784C25.4259 7.30318 24.7413 8.2239 24.3502 9.44056C23.9916 10.6243 23.9264 12.0054 24.1546 13.5838H31V27H17.7003V13.5838C17.7003 8.84867 18.7923 5.26444 20.9763 2.83111C23.1604 0.3649 26.5016 -0.490055 31 0.26625ZM13.2997 0.26625L12.5173 5.88921C10.9527 5.75768 9.68139 6.02075 8.70347 6.6784C7.72555 7.30318 7.04101 8.2239 6.64984 9.44056C6.29127 10.6243 6.22608 12.0054 6.45426 13.5838H13.2997V27H0V13.5838C0 8.84867 1.09201 5.26444 3.27603 2.83111C5.46004 0.3649 8.80126 -0.490055 13.2997 0.26625Z" fill="url(#paint0_linear_2276_19684)"></path>
-					<defs>
-					  <linearGradient id="paint0_linear_2276_19684" x1="20.0565" y1="-17.7379" x2="20.0565" y2="45.611" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					</defs>
-				</symbol>
-
-				<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 23" id="star">
-					<path d="M11.5489 0.927054C11.8483 0.00574327 13.1517 0.00573969 13.4511 0.92705L15.5309 7.32827C15.6648 7.74029 16.0488 8.01925 16.482 8.01925L23.2126 8.01925C24.1814 8.01925 24.5841 9.25887 23.8004 9.82827L18.3552 13.7844C18.0047 14.0391 17.8581 14.4905 17.9919 14.9025L20.0718 21.3037C20.3712 22.225 19.3167 22.9911 18.533 22.4217L13.0878 18.4656C12.7373 18.2109 12.2627 18.2109 11.9122 18.4656L6.46701 22.4217C5.6833 22.9911 4.62882 22.225 4.92817 21.3037L7.00805 14.9025C7.14193 14.4905 6.99527 14.0391 6.64478 13.7844L1.19958 9.82827C0.415862 9.25887 0.81864 8.01925 1.78736 8.01925L8.51801 8.01925C8.95123 8.01925 9.33519 7.74029 9.46906 7.32827L11.5489 0.927054Z" fill="url(#paint0_linear_2276_19688)"></path>
-					<defs>
-					  <linearGradient id="paint0_linear_2276_19688" x1="16.7626" y1="-21.0518" x2="16.7626" y2="46.9895" gradientUnits="userSpaceOnUse">
-						<stop stop-color="var(--text_bg1)"></stop>
-						<stop offset="1" stop-color="var(--text_bg2)"></stop>
-					  </linearGradient>
-					</defs>
-				</symbol>
-
-				<symbol width="114" height="42" viewBox="0 0 114 42" xmlns="http://www.w3.org/2000/svg" id="footer_logo">
-					<path fill-rule="evenodd" clip-rule="evenodd" d="M0.18317 10.2757V0H42.6716V10.2757H28.1934V15.8333H14.6613V10.2757H0.18317ZM0 18.0603V21.4007H28.1934V18.0603H0ZM14.6613 29.195V23.6276H28.1934V29.195H14.6613ZM14.601 31.422V35.3191H14.6613H28.1934H32.0099H42.6798V31.422H14.601ZM48.4711 31.422V35.3191H61.9621V31.422H48.4711ZM64.5173 29.195L61.9621 22.8757V29.195H48.4711V0H64.1421L74.0135 23.5689L83.8849 0H99.5557V29.195H86.0649V22.8757L83.5098 29.195H64.5173ZM65.4175 31.422L66.9932 35.3191H81.0338L82.6096 31.422H65.4175ZM86.0649 31.422V35.3191H114V31.422H86.0649ZM14.6613 37.5461H28.1934V42H14.6613V37.5461ZM48.4711 37.5461V42H61.9621V37.5461H48.4711ZM67.894 37.5461L69.6944 42H78.332L80.133 37.5461H67.894ZM86.0649 37.5461V42H99.5557V37.5461H86.0649Z" fill="url(#paint0_linear_2276_20200)"/>
-					<defs>
-						<linearGradient id="paint0_linear_2276_20200" x1="73.7563" y1="-27.5922" x2="73.7563" y2="70.9504" gradientUnits="userSpaceOnUse">
-							<stop stop-color="var(--text_bg1)"></stop>
-							<stop offset="1" stop-color="var(--text_bg2)"></stop>
-						</linearGradient>
-					</defs>
-				</symbol>
-
-				
-				<symbol width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" id="service">
-					<path d="M32.375 4.5C32.4992 3.2508 32.4992 2.1258 32.4992 0.75H7.50084C7.50084 2.1258 7.50084 3.2508 7.62505 4.5H0.000854492V5.7492C0.000854492 16.875 14.1267 24.75 17.5017 26.4984L17.4993 30.7499C17.4993 32.8757 15.8751 34.4999 13.7493 34.4999H11.2485V39.4991H28.7493V34.4999H26.2485C24.1227 34.4999 22.4985 32.8757 22.4985 30.7499V26.5007C25.8735 24.7499 39.9993 16.8749 39.9993 5.75154V4.50234L32.375 4.5ZM2.62582 7.0008H7.87582C8.37504 12.6258 9.75082 16.6266 11.2508 19.5C7.25002 16.3758 3.12502 12 2.62582 7.0008ZM28.8758 19.5C30.3758 16.6242 31.7516 12.6258 32.2508 7.0008H37.5008C36.875 12 32.75 16.3758 28.8758 19.5Z" fill="url(#paint0_linear_2276_19706)"/>
-					<defs>
-						<linearGradient id="paint0_linear_2276_19706" x1="25.8793" y1="-24.7066" x2="25.8793" y2="66.2087" gradientUnits="userSpaceOnUse">
-							<stop stop-color="var(--text_bg1)"></stop>
-							<stop offset="1" stop-color="var(--text_bg2)"></stop>
-						</linearGradient>
-					</defs>
-				</symbol>
-					
-				<symbol width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg" id="prev">
-					<path d="M10.4117 2.05859L2.47057 9.99977L10.4117 17.9409" stroke="#1B1C31" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-				</symbol>
-
-				<symbol width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg" id="next">
-					<path d="M1.58826 2.05859L9.52943 9.99977L1.58826 17.9409" stroke="#1B1C31" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-				</symbol>
-
-				     
-			
-				<linearGradient id="gradientPrimary" x2="0%" y2="100%">
-					<stop offset="0%" stop-color="#F33726"/>
-					<stop offset="100%" stop-color="#FD9B41"/>
-				</linearGradient>
-
 				</defs>
-			</svg>
+			</symbol>
+
+			<symbol width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"
+				id="check">
+				<circle cx="9" cy="9" r="9" fill="currentColor" />
+				<path d="M5 9L7.8 12L13 6" stroke="white" stroke-width="2" stroke-linecap="round"
+					stroke-linejoin="round" />
+			</symbol>
+
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" id="promotion1">
+				<path
+					d="M42.375 15C42.4992 13.7508 42.4992 12.6258 42.4992 11.25H17.5008C17.5008 12.6258 17.5008 13.7508 17.6251 15H10.0009V16.2492C10.0009 27.375 24.1267 35.25 27.5017 36.9984L27.4993 41.2499C27.4993 43.3757 25.8751 44.9999 23.7493 44.9999H21.2485V49.9991H38.7493V44.9999H36.2485C34.1227 44.9999 32.4985 43.3757 32.4985 41.2499V37.0007C35.8735 35.2499 49.9993 27.3749 49.9993 16.2515V15.0023L42.375 15ZM12.6258 17.5008H17.8758C18.375 23.1258 19.7508 27.1266 21.2508 30C17.25 26.8758 13.125 22.5 12.6258 17.5008ZM38.8758 30C40.3758 27.1242 41.7516 23.1258 42.2508 17.5008H47.5008C46.875 22.5 42.75 26.8758 38.8758 30Z"
+					fill="url(#paint0_linear_2276_19440)"></path>
+				<defs>
+					<linearGradient id="paint0_linear_2276_19440" x1="35.8793" y1="-14.2066" x2="35.8793" y2="76.7087"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+				</defs>
+			</symbol>
+
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" id="promotion2">
+				<path
+					d="M11.2499 28.7507C11.1257 28.7507 10.875 28.7507 10.7507 28.875C10.2492 28.9992 10.0007 29.5008 10.0007 30V38.7492C10.0007 44.3742 15.6257 49.9992 21.2507 49.9992H25.0007V42L12.1241 29.1258C11.8757 28.875 11.6249 28.7508 11.2499 28.7508L11.2499 28.7507Z"
+					fill="url(#paint0_linear_2276_19449)"></path>
+				<path
+					d="M49.2491 28.875C49.1249 28.7507 48.8741 28.7507 48.7499 28.7507C48.3749 28.7507 48.1241 28.875 47.8757 29.1257L32.5007 44.5007V32.2499C48.6257 29.8757 39.8765 10.7507 39.8765 10.7507C39.7499 10.3757 39.2507 10.0007 38.7491 10.0007C38.2499 10.0007 37.7483 10.3757 37.6241 10.8749L34.3733 16.6241L31.1225 10.8749C31.0007 10.3757 30.4991 10.0007 29.9999 10.0007C29.5007 10.0007 28.9991 10.3757 28.8749 10.8749L25.6241 16.6241L22.3733 10.8749C22.2491 10.3757 21.7498 10.0007 21.2506 10.0007C20.7514 10.0007 20.2498 10.3757 20.1256 10.8749C20.1256 10.8749 11.3764 29.9999 27.5014 32.3741L27.4991 49.9991H38.7491C44.3741 49.9991 49.9991 44.3741 49.9991 38.7491V29.9999C49.9991 29.5007 49.7506 28.9991 49.2491 28.8749L49.2491 28.875Z"
+					fill="url(#paint1_linear_2276_19449)"></path>
+				<defs>
+					<linearGradient id="paint0_linear_2276_19449" x1="19.7055" y1="14.7914" x2="19.7055" y2="64.6456"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="#F33726"></stop>
+						<stop offset="1" stop-color="#FD9B41"></stop>
+					</linearGradient>
+					<linearGradient id="paint1_linear_2276_19449" x1="38.6168" y1="-16.2765" x2="38.6168" y2="77.5698"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+				</defs>
+			</symbol>
+
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" id="promotion3">
+				<path
+					d="M48.3749 40.6243L43.8749 33.7501V33.6259L51.2507 30.0001L43.8749 26.3743V26.25L48.3749 19.3758L40.1249 19.8751L40.6242 11.6251L33.75 16.1251H33.6257L29.9999 8.74927L26.3741 16.1251H26.2499L19.3757 11.6251L19.8749 19.8751L11.6249 19.3758L16.1249 26.25V26.3743L8.74915 30.0001L16.1249 33.6259V33.7501L11.6249 40.6243L19.8749 40.1251L19.3757 48.3751L26.2499 43.8751H26.3741L29.9999 51.2509L33.6257 43.8751H33.75L40.6242 48.3751L40.1249 40.1251L48.3749 40.6243ZM29.9999 40.0008C24.4991 40.0008 19.9991 35.5008 19.9991 30C19.9991 24.4992 24.4991 19.9992 29.9999 19.9992C35.5007 19.9992 40.0007 24.4992 40.0007 30C40.0007 35.5008 35.5007 40.0008 29.9999 40.0008Z"
+					fill="url(#paint0_linear_2276_19460)"></path>
+				<path
+					d="M30 22.5C25.875 22.5 22.5 25.875 22.5 30C22.5 34.125 25.875 37.5 30 37.5C34.125 37.5 37.5 34.125 37.5 30C37.5 25.875 34.125 22.5 30 22.5Z"
+					fill="url(#paint1_linear_2276_19460)"></path>
+				<defs>
+					<linearGradient id="paint0_linear_2276_19460" x1="36.2471" y1="-19.1725" x2="36.2471" y2="80.547"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="#F33726"></stop>
+						<stop offset="1" stop-color="#FD9B41"></stop>
+					</linearGradient>
+					<linearGradient id="paint1_linear_2276_19460" x1="32.2048" y1="12.6456" x2="32.2048" y2="47.8394"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+				</defs>
+			</symbol>
+
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 10" id="arrow">
+				<path d="M0 4.75H11.5M11.5 4.75L7 0.75M11.5 4.75L7 9.25" stroke="url(#paint0_linear_2276_19445)"
+					stroke-width="2"></path>
+				<defs>
+					<linearGradient id="paint0_linear_2276_19445" x1="7.44033" y1="-4.83414" x2="7.44033" y2="15.109"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+				</defs>
+			</symbol>
+
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" id="advantages1">
+				<path
+					d="M35.8755 17.5006H24.588L20.9999 6.12451L17.4119 17.5006H6.12439L15.7499 24.4995L11.3744 35.8756L20.9999 28.8751L30.6255 35.8756L26.25 24.4995L35.8755 17.5006Z"
+					fill="url(#paint0_linear_2276_19403)"></path>
+				<defs>
+					<linearGradient id="paint0_linear_2276_19403" x1="25.3729" y1="-13.4207" x2="25.3729" y2="56.3829"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+				</defs>
+			</symbol>
+
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" id="advantages2">
+				<path
+					d="M31.5 16.6245C31.5 15.5745 30.8881 14.6115 29.925 14.262C30.537 13.4745 30.6256 12.3376 30.1006 11.3745C29.5756 10.4115 28.5256 9.97508 27.5625 10.062C27.6495 9.09896 27.2131 8.04896 26.25 7.52396C25.287 6.99896 24.237 7.0859 23.3625 7.69951C23.0131 6.73809 22.05 6.12451 21 6.12451C19.95 6.12451 18.987 6.73645 18.6375 7.69951C17.7631 7.08757 16.7131 7.00059 15.75 7.52561C14.787 8.05062 14.3506 9.10061 14.4375 10.0637C13.4745 9.97671 12.4245 10.4131 11.8995 11.3762C11.3745 12.3392 11.4614 13.3892 12.075 14.2637C11.2006 14.7017 10.5 15.5762 10.5 16.6262C10.5 17.6762 11.1119 18.6392 12.075 18.9887C11.4631 19.7762 11.3744 20.9131 11.8995 21.8762C12.4245 22.8392 13.4745 23.2756 14.4375 23.1887C14.3506 24.1517 14.787 25.2017 15.75 25.7267C15.75 25.7267 15.837 25.7267 15.837 25.8137L13.212 34.2137L16.5375 32.4631L18.2881 35.7887L21 27.1262H21.087H21.1739L23.8859 35.8756L25.6364 32.5501L28.962 34.3006L26.2501 25.8137C26.2501 25.8137 26.337 25.8137 26.337 25.7267C27.3001 25.2017 27.7364 24.1517 27.6495 23.1887C28.6126 23.2756 29.6626 22.8392 30.1876 21.8762C30.7126 20.9131 30.6256 19.8631 30.012 18.9887C30.8881 18.6376 31.5001 17.6745 31.5001 16.6245L31.5 16.6245ZM21 22.7506C17.5875 22.7506 14.8756 20.0387 14.8756 16.6262C14.8756 13.2137 17.5875 10.5018 21 10.5018C24.4125 10.5018 27.1245 13.2137 27.1245 16.6262C27.1245 20.0371 24.4125 22.7506 21 22.7506Z"
+					fill="url(#paint0_linear_2276_19408)"></path>
+				<defs>
+					<linearGradient id="paint0_linear_2276_19408" x1="24.0867" y1="-13.4207" x2="24.0867" y2="56.3829"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+				</defs>
+			</symbol>
+
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" id="advantages3">
+				<path
+					d="M21.0003 13.125C17.1498 13.125 13.9998 16.275 13.9998 20.1256C13.9998 21.7006 14.5248 23.1 15.3992 24.2386C15.3992 24.2386 15.6617 24.5881 15.7486 24.6767C16.5361 25.6397 18.4606 28.3517 18.4606 30.6272H23.7106C23.7106 28.3517 25.635 25.6397 26.4225 24.6767C26.5095 24.5897 26.772 24.2386 26.772 24.2386C27.6464 23.1017 28.1714 21.6136 28.1714 20.1256C28.0008 16.275 24.8508 13.125 21.0003 13.125H21.0003Z"
+					fill="url(#paint0_linear_2276_19413)"></path>
+				<path d="M18.375 32.3745H23.625V35.874H18.375V32.3745Z" fill="url(#paint1_linear_2276_19413)"></path>
+				<path d="M7.00098 19.2495H12.251V21.0001H7.00098V19.2495Z" fill="url(#paint2_linear_2276_19413)"></path>
+				<path d="M29.7498 19.2495H34.9998V21.0001H29.7498V19.2495Z" fill="url(#paint3_linear_2276_19413)">
+				</path>
+				<path d="M30.2908 9.60596L31.5279 10.843L27.8152 14.5557L26.5781 13.3187L30.2908 9.60596Z"
+					fill="url(#paint4_linear_2276_19413)"></path>
+				<path d="M20.126 6.12451H21.8765V11.3745H20.126V6.12451Z" fill="url(#paint5_linear_2276_19413)"></path>
+				<path d="M11.7192 9.5979L15.4319 13.3106L14.1949 14.5476L10.4822 10.8349L11.7192 9.5979Z"
+					fill="url(#paint6_linear_2276_19413)"></path>
+				<defs>
+					<linearGradient id="paint0_linear_2276_19413" x1="23.1686" y1="1.62676" x2="23.1686" y2="42.6914"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+					<linearGradient id="paint1_linear_2276_19413" x1="21.7717" y1="30.0755" x2="21.7717" y2="38.2861"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+					<linearGradient id="paint2_linear_2276_19413" x1="10.3976" y1="18.0995" x2="10.3976" y2="22.2067"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+					<linearGradient id="paint3_linear_2276_19413" x1="33.1464" y1="18.0995" x2="33.1464" y2="22.2067"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+					<linearGradient id="paint4_linear_2276_19413" x1="29.7805" y1="6.35418" x2="29.7805" y2="17.9675"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+					<linearGradient id="paint5_linear_2276_19413" x1="21.2586" y1="2.67548" x2="21.2586" y2="14.9933"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+					<linearGradient id="paint6_linear_2276_19413" x1="13.6846" y1="6.34613" x2="13.6846" y2="17.9595"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+				</defs>
+			</symbol>
+
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 33" id="play">
+				<path
+					d="M27.3505 15.635C27.9966 16.0236 27.9966 16.9603 27.3505 17.3489L1.67255 32.7918C1.00604 33.1926 0.157168 32.7125 0.157168 31.9348L0.157169 1.04907C0.157169 0.271311 1.00604 -0.208738 1.67255 0.192104L27.3505 15.635Z"
+					fill="url(#paint0_linear_2276_20098)"></path>
+				<defs>
+					<linearGradient id="paint0_linear_2276_20098" x1="53.8433" y1="22.3342" x2="-35.6841" y2="22.3342"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+				</defs>
+			</symbol>
+
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 55" id="vk">
+				<rect x="-0.000976562" y="0.473633" width="53.9302" height="53.9198" rx="7.63611" fill="#436EAB"></rect>
+				<path
+					d="M36.3966 29.531C37.3062 30.419 38.2662 31.2543 39.0821 32.2318C39.4425 32.6661 39.7837 33.1144 40.0447 33.6185C40.4146 34.3351 40.0796 35.1236 39.437 35.1664L35.442 35.1645C34.4116 35.25 33.5897 34.8354 32.8985 34.131C32.3454 33.5677 31.8332 32.9682 31.3014 32.3859C31.0833 32.148 30.8551 31.9241 30.5824 31.747C30.0371 31.3931 29.5637 31.5015 29.2521 32.0701C28.9346 32.6485 28.8626 33.289 28.8314 33.9336C28.7887 34.8741 28.5043 35.1214 27.5594 35.1645C25.54 35.2597 23.6234 34.9543 21.8429 33.9357C20.2732 33.0378 19.0561 31.7702 17.9966 30.3351C15.9338 27.5407 14.3541 24.4701 12.9344 21.3136C12.6148 20.6024 12.8485 20.2207 13.6334 20.2071C14.9366 20.1818 16.2397 20.1836 17.5445 20.2053C18.0742 20.2131 18.4249 20.5168 18.6294 21.0171C19.3345 22.7506 20.1973 24.3997 21.2802 25.9284C21.5687 26.3353 21.8628 26.7424 22.2815 27.0288C22.7447 27.346 23.0975 27.2408 23.3155 26.7248C23.4537 26.3976 23.5143 26.0452 23.5455 25.6949C23.6488 24.4893 23.6624 23.2858 23.4813 22.0845C23.3701 21.3348 22.9477 20.8494 22.1994 20.7076C21.8176 20.6352 21.8745 20.4932 22.0594 20.2753C22.3804 19.8995 22.6824 19.6655 23.2845 19.6655H27.7994C28.5102 19.8058 28.668 20.125 28.7654 20.8401L28.7692 25.8542C28.7614 26.131 28.9075 26.9525 29.4061 27.1357C29.8053 27.2661 30.0684 26.9469 30.3079 26.6938C31.3888 25.5468 32.1604 24.1911 32.8496 22.7874C33.1555 22.1702 33.4185 21.5292 33.6734 20.8887C33.8622 20.4134 34.1586 20.1796 34.694 20.1899L39.0393 20.1938C39.1682 20.1938 39.2986 20.1957 39.4233 20.217C40.1556 20.3418 40.3562 20.6567 40.1301 21.3716C39.7738 22.4932 39.0805 23.4278 38.4025 24.3669C37.6779 25.3693 36.9029 26.3375 36.1842 27.346C35.524 28.267 35.5764 28.7312 36.3966 29.531Z"
+					fill="white"></path>
+			</symbol>
+
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" id="telegram">
+				<rect x="0.704102" y="0.473633" width="53.9302" height="53.9198" rx="7.63611" fill="#00AADF"></rect>
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M13.502 26.7499L40.9241 15.0962L40.9241 15.0964L22.2841 29.3487L23.2501 39.2199L23.2499 39.2201L20.6908 29.6024L13.502 26.7499ZM23.2501 39.2198L23.2501 39.2201L23.2501 39.2199L23.2501 39.2198ZM23.2501 39.2198L23.6235 30.8353L40.9241 15.0964L35.6281 39.9488L27.962 34.6553L23.2501 39.2198ZM40.9241 15.0964L40.9241 15.0964L40.9243 15.0962L40.9241 15.0964Z"
+					fill="white"></path>
+				<path
+					d="M40.9232 15.0962L23.6224 30.8353L23.249 39.2201L27.9612 34.6553L35.6272 39.9488L40.9232 15.0962Z"
+					fill="white"></path>
+			</symbol>
+
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 20" id="accord-arr">
+				<path
+					d="M11.493 9.01643C11.8264 9.30515 11.8264 9.82234 11.493 10.1111L1.37647 18.8722C0.907552 19.2783 0.178442 18.9452 0.178442 18.3249L0.178443 0.802563C0.178443 0.182245 0.907552 -0.150851 1.37647 0.255243L11.493 9.01643Z"
+					fill="url(#paint0_linear_2276_20182)"></path>
+				<defs>
+					<linearGradient id="paint0_linear_2276_20182" x1="22.5895" y1="13.0757" x2="-14.7833" y2="13.0757"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+				</defs>
+			</symbol>
+
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 27" id="quote">
+				<path
+					d="M31 0.26625L30.2177 5.88921C28.653 5.75768 27.3817 6.02075 26.4038 6.6784C25.4259 7.30318 24.7413 8.2239 24.3502 9.44056C23.9916 10.6243 23.9264 12.0054 24.1546 13.5838H31V27H17.7003V13.5838C17.7003 8.84867 18.7923 5.26444 20.9763 2.83111C23.1604 0.3649 26.5016 -0.490055 31 0.26625ZM13.2997 0.26625L12.5173 5.88921C10.9527 5.75768 9.68139 6.02075 8.70347 6.6784C7.72555 7.30318 7.04101 8.2239 6.64984 9.44056C6.29127 10.6243 6.22608 12.0054 6.45426 13.5838H13.2997V27H0V13.5838C0 8.84867 1.09201 5.26444 3.27603 2.83111C5.46004 0.3649 8.80126 -0.490055 13.2997 0.26625Z"
+					fill="url(#paint0_linear_2276_19684)"></path>
+				<defs>
+					<linearGradient id="paint0_linear_2276_19684" x1="20.0565" y1="-17.7379" x2="20.0565" y2="45.611"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+				</defs>
+			</symbol>
+
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 23" id="star">
+				<path
+					d="M11.5489 0.927054C11.8483 0.00574327 13.1517 0.00573969 13.4511 0.92705L15.5309 7.32827C15.6648 7.74029 16.0488 8.01925 16.482 8.01925L23.2126 8.01925C24.1814 8.01925 24.5841 9.25887 23.8004 9.82827L18.3552 13.7844C18.0047 14.0391 17.8581 14.4905 17.9919 14.9025L20.0718 21.3037C20.3712 22.225 19.3167 22.9911 18.533 22.4217L13.0878 18.4656C12.7373 18.2109 12.2627 18.2109 11.9122 18.4656L6.46701 22.4217C5.6833 22.9911 4.62882 22.225 4.92817 21.3037L7.00805 14.9025C7.14193 14.4905 6.99527 14.0391 6.64478 13.7844L1.19958 9.82827C0.415862 9.25887 0.81864 8.01925 1.78736 8.01925L8.51801 8.01925C8.95123 8.01925 9.33519 7.74029 9.46906 7.32827L11.5489 0.927054Z"
+					fill="url(#paint0_linear_2276_19688)"></path>
+				<defs>
+					<linearGradient id="paint0_linear_2276_19688" x1="16.7626" y1="-21.0518" x2="16.7626" y2="46.9895"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+				</defs>
+			</symbol>
+
+			<symbol width="114" height="42" viewBox="0 0 114 42" xmlns="http://www.w3.org/2000/svg" id="footer_logo">
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M0.18317 10.2757V0H42.6716V10.2757H28.1934V15.8333H14.6613V10.2757H0.18317ZM0 18.0603V21.4007H28.1934V18.0603H0ZM14.6613 29.195V23.6276H28.1934V29.195H14.6613ZM14.601 31.422V35.3191H14.6613H28.1934H32.0099H42.6798V31.422H14.601ZM48.4711 31.422V35.3191H61.9621V31.422H48.4711ZM64.5173 29.195L61.9621 22.8757V29.195H48.4711V0H64.1421L74.0135 23.5689L83.8849 0H99.5557V29.195H86.0649V22.8757L83.5098 29.195H64.5173ZM65.4175 31.422L66.9932 35.3191H81.0338L82.6096 31.422H65.4175ZM86.0649 31.422V35.3191H114V31.422H86.0649ZM14.6613 37.5461H28.1934V42H14.6613V37.5461ZM48.4711 37.5461V42H61.9621V37.5461H48.4711ZM67.894 37.5461L69.6944 42H78.332L80.133 37.5461H67.894ZM86.0649 37.5461V42H99.5557V37.5461H86.0649Z"
+					fill="url(#paint0_linear_2276_20200)" />
+				<defs>
+					<linearGradient id="paint0_linear_2276_20200" x1="73.7563" y1="-27.5922" x2="73.7563" y2="70.9504"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+				</defs>
+			</symbol>
+
+
+			<symbol width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" id="service">
+				<path
+					d="M32.375 4.5C32.4992 3.2508 32.4992 2.1258 32.4992 0.75H7.50084C7.50084 2.1258 7.50084 3.2508 7.62505 4.5H0.000854492V5.7492C0.000854492 16.875 14.1267 24.75 17.5017 26.4984L17.4993 30.7499C17.4993 32.8757 15.8751 34.4999 13.7493 34.4999H11.2485V39.4991H28.7493V34.4999H26.2485C24.1227 34.4999 22.4985 32.8757 22.4985 30.7499V26.5007C25.8735 24.7499 39.9993 16.8749 39.9993 5.75154V4.50234L32.375 4.5ZM2.62582 7.0008H7.87582C8.37504 12.6258 9.75082 16.6266 11.2508 19.5C7.25002 16.3758 3.12502 12 2.62582 7.0008ZM28.8758 19.5C30.3758 16.6242 31.7516 12.6258 32.2508 7.0008H37.5008C36.875 12 32.75 16.3758 28.8758 19.5Z"
+					fill="url(#paint0_linear_2276_19706)" />
+				<defs>
+					<linearGradient id="paint0_linear_2276_19706" x1="25.8793" y1="-24.7066" x2="25.8793" y2="66.2087"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="var(--text_bg1)"></stop>
+						<stop offset="1" stop-color="var(--text_bg2)"></stop>
+					</linearGradient>
+				</defs>
+			</symbol>
+
+			<symbol width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg" id="prev">
+				<path d="M10.4117 2.05859L2.47057 9.99977L10.4117 17.9409" stroke="#1B1C31" stroke-width="3"
+					stroke-linecap="round" stroke-linejoin="round" />
+			</symbol>
+
+			<symbol width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg" id="next">
+				<path d="M1.58826 2.05859L9.52943 9.99977L1.58826 17.9409" stroke="#1B1C31" stroke-width="3"
+					stroke-linecap="round" stroke-linejoin="round" />
+			</symbol>
 
 
 
-		<!-- Подключение javascript файлов -->
-		<script src="js/jquery-3.5.0.min.js"></script>
-		<script src="js/swiper-bundle.min.js"></script>
-		<script src="js/fancybox.min.js"></script>
-		<script src="js/inputmask.min.js"></script>
-		<script src="js/functions.js"></script>
-		<script src="js/scripts.js"></script>
+			<linearGradient id="gradientPrimary" x2="0%" y2="100%">
+				<stop offset="0%" stop-color="#F33726" />
+				<stop offset="100%" stop-color="#FD9B41" />
+			</linearGradient>
 
-	
-	</body>
+		</defs>
+	</svg>
+
+
+
+	<!-- Подключение javascript файлов -->
+	<script src="js/jquery-3.5.0.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/fancybox.min.js"></script>
+	<script src="js/inputmask.min.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/scripts.js"></script>
+
+
+</body>
+
 </html>

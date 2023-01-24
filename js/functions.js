@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-	// Есть ли поддержка тач событий или это apple устройство
-	if (!is_touch_device() || !/(Mac|iPhone|iPod|MacIntel|iPad)/i.test(navigator.platform)) document.documentElement.classList.add('custom_scroll')
 
 
 	// Ленивая загрузка
@@ -14,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			}
 		}
 	}
-
+	
 	const observer = new IntersectionObserver(scrollTracking, {
 		threshold: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
 	})
@@ -29,12 +27,12 @@ document.addEventListener("DOMContentLoaded", function () {
 	// Моб. версия
 	firstResize = false
 
-	if (document.body.clientWidth < 360) {
-		document.getElementsByTagName('meta')['viewport'].content = 'width=360, user-scalable=no'
+	if (document.body.clientWidth < 375) {
+		document.getElementsByTagName('meta')['viewport'].content = 'width=375, user-scalable=no'
 
 		firstResize = true
 	}
-	
+
 	if (is_touch_device()) {
 		// Закрытие моб. меню свайпом справо на лево
 		let ts
@@ -54,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				// Свайп слева на право
 			}
 		})
-	}	
+	}
 })
 
 
