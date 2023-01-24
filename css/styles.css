@@ -1979,3 +1979,32 @@ form button:hover {
 .team .swiper-wrapper {
     transition-timing-function: linear;
 }
+
+.sector .slider2,
+.sector .slider3,
+.sector .slider4 {
+    overflow: hidden;
+}  
+.sector .swiper-slide {
+    width: auto;
+    margin-right: 19px;
+    margin-bottom: 20px;
+}  
+.sector .slider__item {
+    background: linear-gradient(180deg, #F33726 -65.7%, #FD9B41 168.93%);
+    border-radius: 58px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    position: relative;
+    min-height: 38px;
+    letter-spacing: .02em;
+    padding: 0 18px;
+    white-space: nowrap;
+}  
+.sector .swiper-wrapper {
+    transition-timing-function: linear;
+}

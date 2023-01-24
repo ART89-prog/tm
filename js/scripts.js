@@ -178,6 +178,40 @@ $(() => {
 	});
 
 
+	const slider2 = document.querySelector('.slider2');
+	const sl2 = new Swiper(slider2, {
+		slidesPerView: 'auto',
+		loop: true,
+		speed: 5000,
+		autoplay: {
+			enabled: true,
+			delay: 1,
+		},
+	}); 
+
+	const slider3 = document.querySelector('.slider3');
+	const sl3 = new Swiper(slider3, {
+		slidesPerView: 'auto',
+		loop: true,
+		speed: 5000,
+		autoplay: {
+			enabled: true,
+			delay: 1,
+		},
+	}); 
+
+	const slider4 = document.querySelector('.slider4');
+	const sl4 = new Swiper(slider4, {
+		slidesPerView: 'auto',
+		loop: true,
+		speed: 5000,
+		autoplay: {
+			enabled: true,
+			delay: 1,
+		},
+	}); 
+
+
 
 	$(window).on('resize', () => {
 		let windowW = window.innerWidth || document.clientWidth || document.getElementsByTagName('body')[0].clientWidth
